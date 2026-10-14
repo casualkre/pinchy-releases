@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://casualkre.github.io/pinchy-releases/sitemap.xml

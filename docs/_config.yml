@@ -1,0 +1,6 @@
+title: "Pinchy docs"
+description: "Pinchy is a desktop AI assistant and agent harness built on Claude Code: a small blue lobster that lives on your screen and does real work."
+theme: jekyll-theme-minimal
+url: "https://casualkre.github.io"
+baseurl: "/pinchy-releases"
+include: ["llms.txt", "robots.txt"]
