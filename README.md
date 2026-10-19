@@ -13,12 +13,12 @@
 
 <!-- downloads:buttons -->
 <p align="center">
-  <a href="https://github.com/casualkre/pinchy-releases/releases/download/v2.6.0/BlueLobster-Setup-2.6.0.exe"><img alt="Download Pinchy 2.6.0 for Windows (installer, 113 MB)" src="https://img.shields.io/badge/Download-Windows-2563eb?style=for-the-badge&logo=windows&logoColor=white"></a>
-  <a href="https://github.com/casualkre/pinchy-releases/releases/download/v2.6.0/BlueLobster-2.6.0-mac-arm64.zip"><img alt="Download Pinchy 2.6.0 for macOS on Apple silicon (129 MB)" src="https://img.shields.io/badge/Download-macOS-2563eb?style=for-the-badge&logo=apple&logoColor=white"></a>
-  <a href="https://github.com/casualkre/pinchy-releases/releases/download/v2.6.0/BlueLobster-2.6.0.AppImage"><img alt="Download Pinchy 2.6.0 for Linux (AppImage, 128 MB)" src="https://img.shields.io/badge/Download-Linux-2563eb?style=for-the-badge&logo=linux&logoColor=white"></a>
-  <a href="https://github.com/casualkre/pinchy-releases/releases/download/v2.6.0/Pinchy-Android.apk"><img alt="Download the Pinchy app for Android (10 MB)" src="https://img.shields.io/badge/Download-Android-2563eb?style=for-the-badge&logo=android&logoColor=white"></a>
+  <a href="https://github.com/casualkre/pinchy-releases/releases/download/v2.6.1/BlueLobster-Setup-2.6.1.exe"><img alt="Download Pinchy 2.6.1 for Windows (installer, 113 MB)" src="https://img.shields.io/badge/Download-Windows-2563eb?style=for-the-badge&logo=windows&logoColor=white"></a>
+  <a href="https://github.com/casualkre/pinchy-releases/releases/download/v2.6.1/BlueLobster-2.6.1-mac-arm64.zip"><img alt="Download Pinchy 2.6.1 for macOS on Apple silicon (129 MB)" src="https://img.shields.io/badge/Download-macOS-2563eb?style=for-the-badge&logo=apple&logoColor=white"></a>
+  <a href="https://github.com/casualkre/pinchy-releases/releases/download/v2.6.1/BlueLobster-2.6.1.AppImage"><img alt="Download Pinchy 2.6.1 for Linux (AppImage, 128 MB)" src="https://img.shields.io/badge/Download-Linux-2563eb?style=for-the-badge&logo=linux&logoColor=white"></a>
+  <a href="https://github.com/casualkre/pinchy-releases/releases/download/v2.6.1/Pinchy-Android.apk"><img alt="Download the Pinchy app for Android (10 MB)" src="https://img.shields.io/badge/Download-Android-2563eb?style=for-the-badge&logo=android&logoColor=white"></a>
 </p>
-<p align="center"><sub>Version 2.6.0 · Intel Mac and the portable Windows build are in the table below · <a href="https://github.com/casualkre/pinchy-releases/releases/latest">all files and release notes</a></sub></p>
+<p align="center"><sub>Version 2.6.1 · Intel Mac and the portable Windows build are in the table below · <a href="https://github.com/casualkre/pinchy-releases/releases/latest">all files and release notes</a></sub></p>
 <!-- /downloads:buttons -->
 
 <p align="center">
@@ -36,12 +36,12 @@
 <!-- downloads:table -->
 | Your device | File | Size | Then |
 |---|---|---|---|
-| **Windows 10/11** | [BlueLobster-Setup-2.6.0.exe](https://github.com/casualkre/pinchy-releases/releases/download/v2.6.0/BlueLobster-Setup-2.6.0.exe) | 113 MB | Run it. SmartScreen asks once (the build is not code-signed). |
-| **Windows, no install** | [BlueLobster-Portable-2.6.0.exe](https://github.com/casualkre/pinchy-releases/releases/download/v2.6.0/BlueLobster-Portable-2.6.0.exe) | 113 MB | Run it from any folder. |
-| **macOS (Apple silicon)** | [BlueLobster-2.6.0-mac-arm64.zip](https://github.com/casualkre/pinchy-releases/releases/download/v2.6.0/BlueLobster-2.6.0-mac-arm64.zip) | 129 MB | Unzip, move to Applications, right-click → Open the first time. |
-| **macOS (Intel)** | [BlueLobster-2.6.0-mac-x64.zip](https://github.com/casualkre/pinchy-releases/releases/download/v2.6.0/BlueLobster-2.6.0-mac-x64.zip) | 133 MB | Same. |
-| **Linux x86_64** | [BlueLobster-2.6.0.AppImage](https://github.com/casualkre/pinchy-releases/releases/download/v2.6.0/BlueLobster-2.6.0.AppImage) | 128 MB | `chmod +x` it and start it. |
-| **Android phone or tablet** | [Pinchy-Android.apk](https://github.com/casualkre/pinchy-releases/releases/download/v2.6.0/Pinchy-Android.apk) | 10 MB | Install, then pair with your computer by QR code. |
+| **Windows 10/11** | [BlueLobster-Setup-2.6.1.exe](https://github.com/casualkre/pinchy-releases/releases/download/v2.6.1/BlueLobster-Setup-2.6.1.exe) | 113 MB | Run it. SmartScreen asks once (the build is not code-signed). |
+| **Windows, no install** | [BlueLobster-Portable-2.6.1.exe](https://github.com/casualkre/pinchy-releases/releases/download/v2.6.1/BlueLobster-Portable-2.6.1.exe) | 113 MB | Run it from any folder. |
+| **macOS (Apple silicon)** | [BlueLobster-2.6.1-mac-arm64.zip](https://github.com/casualkre/pinchy-releases/releases/download/v2.6.1/BlueLobster-2.6.1-mac-arm64.zip) | 129 MB | Unzip, move to Applications, right-click → Open the first time. |
+| **macOS (Intel)** | [BlueLobster-2.6.1-mac-x64.zip](https://github.com/casualkre/pinchy-releases/releases/download/v2.6.1/BlueLobster-2.6.1-mac-x64.zip) | 133 MB | Same. |
+| **Linux x86_64** | [BlueLobster-2.6.1.AppImage](https://github.com/casualkre/pinchy-releases/releases/download/v2.6.1/BlueLobster-2.6.1.AppImage) | 128 MB | `chmod +x` it and start it. |
+| **Android phone or tablet** | [Pinchy-Android.apk](https://github.com/casualkre/pinchy-releases/releases/download/v2.6.1/Pinchy-Android.apk) | 10 MB | Install, then pair with your computer by QR code. |
 <!-- /downloads:table -->
 
 You install once. After that **Pinchy updates himself**: he tells you when a new version is out and you press *Update now*.
