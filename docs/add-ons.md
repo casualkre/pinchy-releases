@@ -1,7 +1,7 @@
 ---
 title: "Add-ons: connectors, skills and extensions"
 description: "Three ways to give Pinchy more: connectors link him to the apps and services you use, skills are know-how he loads when a task needs it, and extensions add new looks, tricks, tools and panels."
-keywords: "connector, connect, integration, MCP, plugin, extension, add-on, skill, install, library, github, gmail, calendar, notion, slack, google, google drive, google docs, google sheets, zapier, client id, manifest, super extension, super extensions, experimental, deep sea, hide a page, replace a page, engine, drift, extension theme"
+keywords: "connector, connect, integration, MCP, plugin, extension, add-on, skill, install, library, github, gmail, calendar, notion, slack, google, google drive, google docs, google sheets, zapier, composio, easy connector, one sign-in, client id, manifest, super extension, super extensions, experimental, deep sea, hide a page, replace a page, engine, drift, extension theme"
 permalink: /add-ons/
 ---
 # Add-ons: connectors, skills and extensions
@@ -37,7 +37,7 @@ How to try it:
 What a super extension can never touch: the windows where you decide (approvals, the administrator password, the wallet, the consent window), the Extensions window and the Experimental page (your way back), Safety, pause and the kill switch, and the tools behind them. A tool it answers still asks you exactly as the built-in one did. Only your own click switches a super extension on; Pinchy, an agent or a chat app cannot.
 
 ## Gmail, Google Calendar, Drive and Slack
-- The quick way for a normal Google account: in Settings → Add-ons → Connectors, search "gmail" (or "google calendar") and connect Zapier, Pipedream or Make. One sign-in, no setup on Google's side; you pick there which Google apps Pinchy may use.
+- The quick way for a normal Google account: an easy connector. Composio or Zapier (offered in the first-run setup too, on the Connect step) or Pipedream or Make, at the top of the connector library (Settings → Add-ons → Connectors), in the group "Easy connectors". One sign-in in your browser, no setup on Google's side; on their page you choose which apps (Gmail, Calendar, Drive, Docs, Sheets and many more) Pinchy may use. Searching "gmail" or "google calendar" lists them first.
 - Google's own servers (the cards named Gmail, Google Calendar, Google Drive, Google Docs, Google Sheets, Google Slides, marked "Setup · preview"): Google only lets an app you registered yourself sign in, and your account must be in Google's Workspace Developer Preview Program. The card lists the five steps with a link for each; you paste a Client ID and a Client secret once and all six cards share them.
 - Slack (marked "Setup · preview"): Slack's own server works with a small private app in your workspace. The card has the three steps and a "Copy the manifest" button; you paste the app's Client ID, press Sign in and allow it in the browser. In some workspaces an admin must approve the app first. Pinchy then reads and writes Slack as you.
 - "Setup · preview" means: new in 2.5 and not yet tried against every kind of account. If sign-in fails, the sentence under the button says why.

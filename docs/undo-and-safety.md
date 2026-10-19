@@ -18,6 +18,8 @@ You stay in charge of what Pinchy does on your computer. You can pause him at on
 - Pause: while paused, Pinchy and his tasks cannot act on your computer, and waiting permission requests are denied. The panic shortcut pauses him from anywhere.
 - Permissions: before something that cannot be taken back (deleting, sending, buying, system settings) he asks, and the app shows a dialog. An unanswered request is denied after two minutes. "Always allow" answers are remembered and you can remove them.
 - Admin commands: for a command that needs root he shows a password dialog that only you answer. He never types your password.
+- Admin commands on your away server: once root approvals are on, every root command there waits for your Allow or Refuse — from this computer, your phone or Telegram — at any autonomy level. It runs exactly the command you were shown, and only after your Allow. See the page "Away server".
+- Your screen, mouse and keyboard: an agent may use them only if you ticked that for the agent. Its own computer (Pinchy's VM, or the away server's desktop) is a different box and is on by default.
 - Undo: with the timeline on, a copy of every file is kept on this computer before he changes it. The timeline window lists each step with an Undo button.
 - The activity log records what he did, including what was auto-approved.
 

@@ -38,7 +38,7 @@ Pinchy can live in a Telegram chat. You write to your own bot, Pinchy answers th
 - "/to <name> <message>" sends your message to that agent, and the chat stays with it until you write "/pinchy". "@name <message>" does the same.
 - You do not have to type the whole name: the start of it is enough. If two agents fit, the chat asks which one you mean.
 - "/to <name>" with no message only switches the chat to that agent.
-- A reply to an agent's message goes to that agent for that one message. It does not switch the chat.
+- A reply to an agent's message goes to that agent for that one message. It does not switch the chat. That is also true for its messages from your away server and from before Pinchy restarted. If two agents have the same name, the reply goes to Pinchy (rename one, or use /to).
 - An agent's messages start with "from" and its name, so you always see who is speaking.
 - A chat you leave alone for six hours is with Pinchy again.
 - This works for agents and tasks, on your computer and on your away server. Swarms have their own commands (below).
@@ -47,7 +47,7 @@ Pinchy can live in a Telegram chat. You write to your own bot, Pinchy answers th
 - "/code <what you want>" starts a Code job in the project you used last. "/code in ~/projects/site: <what you want>" names the folder. The first message says which folder it works in.
 - "/work <what you want>" starts a Work job: a document, a table, a write-up.
 - While a job works, its first message shows the step it is on.
-- A small job just starts. A bigger one shows its plan first when you asked for that (Settings → Work & Code → Runs, "Plan first and wait for my OK"): the plan with Start and Cancel the job. Reply to the message to say what to change.
+- A small job just starts. A bigger one shows its plan first when you asked for that (Settings → Workspace → Runs, "Plan first and wait for my OK"): the plan with Start and Cancel the job. Reply to the message to say what to change.
 - When one of its commands needs your OK, the chat shows the command and what it is for, with Approve and Deny.
 - When it needs something else from you, the message says what. Reply to answer.
 - A finished Code job says what it changed, with Apply, Keep as a branch and Discard. Nothing is in your folder until you tap Apply. A finished Work job has a button that sends you its file.
@@ -61,6 +61,7 @@ Pinchy can live in a Telegram chat. You write to your own bot, Pinchy answers th
 - With the switch on, they get Approve too. After Approve on an admin command the chat asks for your admin password: you send it as your next message, and Pinchy deletes that message at once. The password does pass through Telegram's servers.
 - "/cancel" instead of the password leaves the request waiting, and Deny ends it. A password that starts with "/" or "!" has to be typed at the computer.
 - An agent that parked a command that needs root: with the switch on, "Run it" shows you the exact command and asks for the password in the same way.
+- On your away server with root approvals turned on (see the page "Away server"), there is no password: each root request comes once, as its own card with the exact command, Allow and Refuse. Refuse works any time; Allow works while your computer is on and "Approve everything from a chat" is switched on (your computer signs it). With the computer off, allow it from the phone app.
 
 ## Swarms in Telegram
 - "/swarms" shows your crews and how far they are. "/swarm <goal>" starts one.
@@ -88,7 +89,7 @@ Pinchy can live in a Telegram chat. You write to your own bot, Pinchy answers th
 
 ## Settings
 - Settings → Agents & automation → Telegram & chat apps: the bot token, Connect my Telegram, Connected chats (per chat: which kinds of messages it gets, and whether voice notes are answered by voice), Approve everything from a chat, Keep answering while this PC is off, Remove the bot.
-- Settings → Agents & automation → Agents → Away server: pair the server that answers while this computer is off.
+- Settings → Agents & automation → Away server: pair the server that answers while this computer is off.
 
 ## Limits
 - Telegram lets a bot receive files up to 20 MB and send files up to 50 MB. Bigger result files are named in the chat and stay on your computer.

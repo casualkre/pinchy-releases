@@ -1,7 +1,7 @@
 ---
 title: "Away server: Pinchy keeps going while your computer is off"
 description: "An away server is a second Pinchy without a screen, on a small machine that is always on: a home server, a mini PC or a rented server. It shares Pinchy's memory. While your computer is asleep or off, it keeps your agents' schedules going, runs your server agents, and answers your Telegram bot and yo"
-keywords: "away server, away mode, server, change server, move agents, another machine, only this computer, vps, home server, raspberry pi, docker, headless, computer off, pc off, laptop closed, asleep, keeps running, runs while I sleep, claude login, second pinchy, takeover, hand over"
+keywords: "away server, away mode, server, change server, move agents, another machine, only this computer, vps, home server, raspberry pi, docker, headless, computer off, pc off, laptop closed, asleep, keeps running, runs while I sleep, claude login, second pinchy, takeover, hand over, sudo on the server, root on the server, administrator, passwordless root, root approvals, allow root command"
 permalink: /away-server/
 ---
 # Away server: Pinchy keeps going while your computer is off
@@ -28,7 +28,7 @@ An away server is a second Pinchy without a screen, on a small machine that is a
 - Voice notes: speech is turned into text on your computer.
 
 ## Setting it up
-- Settings → Agents & automation → Agents → "Keep working while this computer is off?" → Yes. The same question is at the top of the Agents window, in the form when you create an agent, and in the welcome.
+- Settings → Agents & automation → Away server → "Keep working while this computer is off?" → Yes. The same question is at the top of the Agents window, in the form when you create an agent, and in the welcome.
 - Pinchy asks which machine: a computer at home that stays on, or a free cloud server. Then he shows ONE line. Paste it in that machine's terminal: it installs him there, and this computer finds and connects it by itself. No address to type.
 - "This machine is only for Pinchy" gives him his own screen and browser there, so a sign-in or a captcha can be finished from your phone. Without it he works in a closed box with text and files only.
 - If his brain is not signed in there yet, the card shows the one command for it. Without a sign-in the other machine can receive a message but cannot think, and it tells you so.
@@ -48,9 +48,22 @@ An away server is a second Pinchy without a screen, on a small machine that is a
 - When something on the server needs you (a question, a captcha, a sign-in), it reaches your phone and your Telegram chat. A screen step is opened from the phone app.
 - What an agent on the server wants to tell you (a result, a question): while this computer is on, it asks the server every few seconds and shows it at once here, on your phone and in your chat apps. While it is off, the server's own bot sends it, if "Keep answering while this PC is off" is on; without that switch you find it under "While you were away" when the computer is back.
 - Restarting or updating the server only cuts the round that is running; the agents start again by themselves.
+- What it keeps: its files, the agents' notebooks and its browser logins stay across restarts and updates — also sites you signed into without "remember me". Its desktop and its agents use the same browser, so a sign-in you finish there is the agents' sign-in too.
+- Each agent on the server has the server's screen, mouse and keyboard as its own computer (on by default). You watch it on the right of the agent's chat in the Agents window and can take control there.
+- Updating it: Settings → Agents & automation → Away server → Update now (only releases signed by Pinchy's key; if the new one does not start, it goes back by itself). Most fixes for away agents run on the server, so update it after this computer updates — or switch on "Keep Pinchy there up to date".
+
+## Root (administrator) on the server, without a password
+- Only on a machine you gave him ("This machine is only for Pinchy"). Turn it on once: Settings → Agents & automation → Away server → "Root commands: off" → Turn on. You type that machine's sudo password one last time.
+- After that, when Pinchy or an agent there needs root (installing a program, a system service) — at any autonomy level, whether it uses its root tool or types sudo in its own shell — you get the exact command, and where it runs, on this computer (a notification and the Agents window), on your phone, or in Telegram. You press Allow or Refuse. No password to remember.
+- It runs only after your Allow, and exactly the command you were shown: the server checks your computer's or your phone's signature for that one command. Nothing on that machine can run root without it, not even an agent that tries.
+- Your phone can allow it while this computer is off (fingerprint or screen lock). Telegram can refuse it any time; it can allow it only while this computer is on and "Approve everything from a chat" is switched on.
+- If the command runs a script or a build in a folder your agents can change, the card says so.
+- Telegram gets each root request once, as its own card with Allow and Refuse. The agent that asked gets the command's output after your Allow, or your Refuse.
+- The page shows whether root approvals are on as they are right now: it checks again when the server reconnects, after it updates and right after you turn them on.
+- To turn it off, on the server: sudo pinchy-away root-setup --off
 
 ## Settings
-- Settings → Agents & automation → Agents → While this computer is off: the question (No / Yes) and "Runs on … · Change…"; under it What he may do there, Sync the brain every, Keep Pinchy there up to date.
+- Settings → Agents & automation → Away server (its own page since 2.6.1): at the top how it is right now (connected, which Pinchy it runs + Update, root approvals, its desktop, what it keeps, cloud storage and Telegram from the server), then the question (No / Yes) and "Runs on … · Change…"; under it What he may do there, Sync the brain every, Keep Pinchy there up to date.
 - Settings → Agents & automation → Telegram & chat apps: Keep answering while this PC is off.
 - Settings → Agents & automation → Phone: whether the phone reaches Pinchy away from home.
 
