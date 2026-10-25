@@ -38,6 +38,7 @@ Pinchy's memory is a plain folder of markdown files on your computer, called his
 - A small model looks at the chat every few messages and notes what is worth keeping. When it saves something you see a small "Noted" message with Undo.
 - When you tell him to remember something, he saves it in the same turn.
 - Before answering a question that may have come up before, he searches his notes; when the notes have little on it, the search also brings back matching lines from past chats.
+- Notes that fit come to him by themselves: each time you write to him, a quick local search (no extra Claude call) puts the few notes that clearly match your message in front of it, so you don't have to say "remember…". A note is given once per chat, small talk adds nothing, and the notes come as information about you, never as orders. Settings → Brain → Memory → Recall notes that fit switches it off.
 - Claude Code keeps its own notes for a folder you also use with Claude Code. Those are not Pinchy's memory and are never loaded into his chats. When his own notes have nothing on a question, his search also looks there and tells him whose notes they are.
 
 ## Settings

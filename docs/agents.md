@@ -1,7 +1,7 @@
 ---
 title: "Agents: coworkers with a standing job"
 description: "An agent is a coworker you give a job to once. It works on its own, on a schedule or when something happens, and writes to you only when it is done, has an update, or needs your help or approval. You do not manage it step by step."
-keywords: "agent, agents, coworker, command, commands, custom command, slash command, scheduled task, routine, reminder, automation, every morning, every day, watch, monitor, keep an eye, heartbeat, background, standing job, recurring, attach, file, files, folder, zip, download, preview, description, colleagues, message between agents, sub-swarm, helper, stop job, needs you, mark done, dismiss, computer, vm, screen mouse keyboard, take control, move agent, delete agent, specialists"
+keywords: "what are my agents doing, what is my agent doing, how are my agents doing, helpers in a row, retry a helper, take off, skills it writes down, wrote down, keep or throw away, teach him a task, agent, agents, pause part, pause watch, pause schedule, finish setup, quiet look, noisy watch, repair watch, told twice, duplicate message, coworker, command, commands, custom command, slash command, scheduled task, routine, reminder, automation, every morning, every day, watch, monitor, keep an eye, heartbeat, background, standing job, recurring, attach, file, files, folder, zip, download, preview, description, colleagues, message between agents, sub-swarm, helper, stop job, needs you, mark done, dismiss, computer, vm, screen mouse keyboard, take control, move agent, delete agent, specialists"
 permalink: /agents/
 ---
 # Agents: coworkers with a standing job
@@ -14,6 +14,7 @@ An agent is a coworker you give a job to once. It works on its own, on a schedul
 - "Keep my project moving: every evening, do the next thing on the list and tell me what you did." A project coworker.
 - "Tell me when this page changes, and what the change means for me." A watcher with judgement.
 - "Remind me in ten minutes to call Ada." A one-off reminder, the smallest kind of agent: it costs nothing to run.
+- The **What needs me** example card in the Agents window: one morning brief, then quiet check-ins every few hours on the light model. It speaks up only when something really needs you (someone waiting on you today, a deadline, one of your agents stuck), and your 👍 / 👎 and replies like "not urgent" teach it what counts. Nothing runs until you add it.
 - "What are my agents doing?" He lists them, their last runs and anything waiting for you.
 - In an agent's chat: "Here are the three invoices, put the totals in a sheet." Attach the files and it works on them.
 - In an agent's chat: "Move the news agent to the away server" or "Delete the old copy of Scout." It does it for you.
@@ -28,6 +29,12 @@ An agent is a coworker you give a job to once. It works on its own, on a schedul
 - There are no separate "scheduled tasks" any more: a task is an agent with a time or a wake-up. The tasks you had before were turned into agents the first time this version started, with the same words, times and way of telling you; a copy of the old list is kept.
 - An agent can have conditions: only on certain days, only while you are away from the computer or only while you are at it, not on battery, only while a variable says so. If a condition (or a broken wake-up) keeps an agent from running, he tells you once, with the reason, instead of skipping silently.
 - An agent made from a task without a time (a folder watch, or one you started by hand) runs only when its wake-up fires or you start it.
+- A watched page that only changed a time ("checked 4h ago") or today's date is not news: the agent is not woken for it.
+- When only a watched page, feed or value changed, a small cheap model looks first whether anything is new for the agent's job. If not, the agent sleeps on and its chat says "Looked quickly: nothing new … No round was needed." Its next round hears which watches keep doing that, so it can quiet or drop them. Switch it off in Settings ("Look quickly before waking an agent for a web page or feed").
+- A round that a watched page woke reads that page as data. The quick look also checks whether the page tries to give an AI orders: when it is plainly data (news, prices, release notes), the agent may still change its own watches and start a job or a helper from it; when it tries to give orders, those stay locked and you are shown the text. Making commands, changing its description, and creating, moving or deleting agents are never done from a page. Switch: "Let agents act on watched pages that are only data".
+- An agent can quiet a watch of its own that keeps waking it for nothing (look only at one part of the page, ignore numbers, look less often) or drop it, even right after that watch woke it. A watch that stops working gets one round of its own first: the agent finds out why and fixes it (a page on the same site can take its place without asking you), or asks you with the fix as a choice. You hear what it did, or what is wrong and what it tried.
+- Pause one part of an agent without deleting anything: on its side panel each watch, its schedule ("On its schedule") and each connector it uses ("Uses …") has a Pause button; a paused part shows "Switch on". A paused watch does not wake it, a paused schedule plans no run (your message or its watches still start it), a paused connector's tools are off for it — and the agent is told what you paused. A new agent shows "Finish setup" at the top of its side panel until it has a way to reach you, its watch has fired once, its connectors are signed in and it has run once.
+- An agent remembers what it already told you in the last two days and does not send you the same news twice; the same message (same words, same numbers) is not sent to Telegram again within six hours.
 - When you write to an agent, it reads your message right away, even if it was asleep. Resume on one agent runs it now, even in its quiet hours; un-pausing Pinchy wakes your agents at their normal times.
 
 ### Files in its chat
@@ -50,12 +57,25 @@ An agent is a coworker you give a job to once. It works on its own, on a schedul
 ### Jobs it starts
 - An agent can hand a big job to Pinchy's engines: a Code or Work run, deep research, a code review, or a whole swarm (a sub-swarm runs as a hive like any other swarm), and it can start helpers that work in the background while it goes on.
 - Everything it started shows live above its chat under "Working for him": what each job is doing, what it has spent of its limit, and anything that waits for you first. **Open** opens the run or the swarm's board, **Tell** passes a line to a job while it works, **Stop** stops it. The agent hears what you did in its next round. When nothing is running, the strip folds to one line ("His jobs").
+- **Helpers in a row**: an agent can line up steps that depend on each other in one go — the next starts by itself when the one before finished well, on its files or branch, and is dropped (the agent is told) when it fails. A lined-up helper waits on its row ("when "release notes" finishes"); **Take off** removes it. A standard agent asks you once for the whole chain.
+- A finished helper's row says how it ended — its checks, its reviewer, its branch and files — and **Retry** starts it again (the agent can do that too). A helper can have its own time limit, and the agent can sleep until its helpers hand back.
 - A swarm it starts belongs to it: when the crew has a question, the agent answers what its job and notes settle and sends you only what it cannot decide. When the job is finished the agent gets the real files and a plain statement of what is still open, so it can check the work before it tells you.
 
 ### Its own computer, and yours
 - Every agent has its own computer, on by default: on the away server that is the server's own desktop ("His screen, mouse and keyboard"), on this computer it is Pinchy's VM ("His own computer (a VM): screen, mouse and keyboard"). It shows beside its chat, and you can take control.
+- **Teach him a task** on that computer: show it once and it becomes his own skill (see Teach by showing). **What he learned** lists them; an agent can also ask you to show it something (a **Show him** button on its question).
 - **Your** screen, mouse and keyboard is a separate box, "Your screen, mouse and keyboard", only while you are away. It is off unless you tick it.
 - An agent can also make calls to this computer while it is switched on: run a command, read or write a file, look in a folder. Each call asks you first with **Allow once**, **Always** (for that kind of call, for that agent) or **No**, on the desktop, the phone or Telegram. Calls from the away server can be allowed "Always" only for reading and looking in folders.
+
+### Skills it writes down
+- After a real multi-step job that went well, an agent may write down HOW it did it as a skill draft (from the steps it really ran; what it typed and anything secret-looking is left out), checked once more against those steps. Drafts wait on its page: "Wrote down · N to keep or throw away" — **Read it**, **Keep** (it becomes that agent's own skill) or **Throw away**. Only you decide; at most two drafts a day per agent, and the cost is that agent's. Settings → Agents & automation → Agents → "Agents write down how they did a job" turns it off.
+- **Ask about it** on an agent's card: a small side chat that answers what it is doing and why, without disturbing it.
+
+### Check-up and failures
+- A file an agent wrote during a run goes with its message (Telegram, phone, a note), even when it saved it outside its own folder, for example in your Documents. Hidden folders, key and password files and Pinchy's own files never go.
+- When an agent keeps failing you are told once, then reminded at most every 4 hours. **Got it** on its notice keeps it quiet until a run works again; then you hear "Working again".
+- Agent check-up: once a month a note lists each agent's runs, cost and when you last looked at it, with keep, slow down or pause advice. Ask "how are my agents doing?" to see it any time.
+- An agent that keeps running by itself while you have not looked at it for three weeks, and whose results do not reach you on Telegram, the phone or anywhere else, is paused with one message and a **Resume** button. Opening its chat, writing to it or starting it yourself counts as looking.
 
 ### When it needs you
 - When an agent needs you, it asks: a question, a step only a person can do on its screen (a captcha, a sign-in), or an OK before something risky (a command, root on the away server, a call to this computer).
@@ -70,7 +90,7 @@ An agent is a coworker you give a job to once. It works on its own, on a schedul
 - A specialist (for example a fact checker) reads along while an agent works and leaves it notes. In the agent's form, under "Specialists watching him", tick one for this agent only; a specialist set to watch every agent is shown there already. "Open Specialists" opens the Specialists window to make one or change what it watches.
 
 ## Settings
-- Settings → Agents & automation → Agents: Open Agents, let agents run, let Pinchy create agents when you ask, how many helpers an agent may make, how many agents at most and at the same time, how often a scheduled agent may run, the older "Pause watches and routines" switch.
+- Settings → Agents & automation → Agents: Open Agents, pause an agent you stopped looking at (the check-up), let agents run, let Pinchy create agents when you ask, how many helpers an agent may make, how many agents at most and at the same time, how often a scheduled agent may run, the older "Pause watches and routines" switch.
 - Settings → Agents & automation → Away server: the machine that keeps them working while this computer is off, with root approvals for agents there.
 - Settings → Pinchy → Notifications: where results are sent (under "Results from agents"): your email, quiet hours, saved places.
 - Settings → Agents & automation → Heartbeat: the list he keeps an eye on, how often it is checked, how often the big model may be woken.
@@ -82,6 +102,7 @@ An agent is a coworker you give a job to once. It works on its own, on a schedul
 ## Limits
 - Every scheduled run is a Claude round and uses your plan. A run every minute uses it fast; wake-ups are checked without Claude.
 - What an agent may do without asking is set per agent. Sending, deleting, paying and admin commands ask you first unless you allowed them for that agent.
+- A few things are always refused, whatever an agent's autonomy (your keys and logins, Pinchy's own settings, wrecking the computer). What an agent was stopped from is listed under its Guardrails, "Stopped by Pinchy's safety rules"; you get one notice on a day it is stopped more than three times. "That was harmless" keeps the example so the rule can be fixed — it never loosens a rule by itself.
 - A swarm or job an agent starts spends from that agent's daily budget, and never more than your cost cap per swarm. Putting a result into a git project (Apply), raising a limit and permissions are always your decision, never the agent's.
 - While this computer is off, agents run only if you set up an away server; calls to this computer wait until it is on.
 - An agent made by another agent never gets more than its creator: the same switches, rules and budget (at most the creator's), and no helpers of its own unless you give it some.

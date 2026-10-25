@@ -33,6 +33,7 @@ Pinchy can live in a Telegram chat. You write to your own bot, Pinchy answers th
 - "/needs" lists everything that is waiting for you.
 - "/made" lists what he made lately (reports, tables, write-ups). Tap one to get it as a file.
 - Each connected chat can switch kinds of messages off in Settings → Agents & automation → Telegram & chat apps → Connected chats.
+- Messages keep their layout: indented lines and bullet lists arrive the way they were written (leading spaces are sent as spaces Telegram keeps), so an agent's brief needs no tricks to indent.
 
 ## Talking to one agent
 - "/to <name> <message>" sends your message to that agent, and the chat stays with it until you write "/pinchy". "@name <message>" does the same.
@@ -92,6 +93,7 @@ Pinchy can live in a Telegram chat. You write to your own bot, Pinchy answers th
 - Settings → Agents & automation → Away server: pair the server that answers while this computer is off.
 
 ## Limits
+- A connection that drops for a moment is retried at once and is not reported; only a second failure in a row shows as "lost the connection". A message whose connection never opened is sent again; one that may have arrived is never sent twice.
 - Telegram lets a bot receive files up to 20 MB and send files up to 50 MB. Bigger result files are named in the chat and stay on your computer.
 - "Keep answering while this PC is off" stores the bot token on your away server, where the agents running there could read it. Only use a server you run yourself.
 - When the server takes over after your computer goes to sleep, there can be a pause of a few minutes before it starts answering. Nothing is lost: Telegram keeps your messages.

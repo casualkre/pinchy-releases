@@ -20,6 +20,7 @@ Pinchy updates himself. He checks for a new version a few times a day, tells you
 - By default he tells you and waits for your click. If you allow him to install by himself, he does it only when nothing is running and you have been away from the keyboard for five minutes, or when you quit Pinchy.
 - An update never restarts Pinchy under a working swarm or agent. It waits until they are done.
 - After an update he tells you what is new. The version before stays on your computer, so you can roll back.
+- A downloaded update is removed once that version (or a newer one) runs, so old installers don't pile up in Pinchy's folder; the copy kept for rolling back is never removed.
 - Your away server updates separately: Settings → Agents & automation → Away server → Update now, or switch on "Keep Pinchy there up to date" and it follows this computer by itself when it is idle. It also accepts only signed versions and goes back by itself if a new one does not start. Fixes for agents on the server only arrive there with its update.
 - The phone app does not update itself: install the new APK from the release page (the download table at the top of each release).
 

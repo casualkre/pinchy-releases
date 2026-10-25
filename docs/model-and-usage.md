@@ -15,6 +15,7 @@ Pinchy runs on your Claude plan. You choose the model he thinks with and how car
 - "Why did you just switch models?" When your plan is nearly used up, the quota saver moved the chat to a cheaper model; he says so.
 
 ## How it works
+- Background work uses the small current models unless you pick another one in Settings: Haiku 5.5 for memory updates, the regular check, the quick answer before a job and writing help; Sonnet 5.5 for specialists that read along, lessons he writes from what you showed him, and research searches.
 - Model: one setting for chats. Work, Code, agents and swarms have their own model settings.
 - Usage level: Full quality, Balanced or Saver. Every level loads his rarely used tools only when he needs them. Balanced and Saver also carry less of his memory in every message and look older chats up when they matter.
 - Quota saver: when the 5-hour window is nearly used up (85% by default), the chat moves to a cheaper model, answers get shorter and agents that run on a schedule wait. Reminders and anything marked essential still run.

@@ -16,6 +16,7 @@ Pinchy can do things on a computer the way a person does: look at the screen, cl
 
 ## The four places
 - **His own browser**: for anything on the web. It never touches your mouse and several jobs can browse at once.
+  - **Site know-how**: when he or an agent works on a website in its own browser, it can leave a short note for next time (where the login is, which button does what, what did not work). Any of their browsers gets those notes back when it opens that site again — as hints to check, never as orders. Passwords, keys and commands are never kept, and notes stay on this computer. Read and delete them in Settings → Brain → Memory → Site know-how.
 - **His own desk**: a second, hidden desktop where he uses your apps with his own mouse and keyboard. He can read your files there; your files only change when you press Keep, and the old versions go to the Trash first.
 - **Your screen**: your real mouse and keyboard, for something already open in front of you or when you ask for it.
 - **His own computer**: a small virtual machine (Alpine Linux) that starts only when needed and keeps its files between sessions. Good for risky installs and long jobs.

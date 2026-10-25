@@ -21,6 +21,7 @@ An away server is a second Pinchy without a screen, on a small machine that is a
 - Telegram: with "Keep answering while this PC is off" switched on, Pinchy on the server answers your messages. See the page "Telegram".
 - The phone app shows the server's agents and what is waiting for you, and lets you answer them.
 - A swarm working on the server is not interrupted by the server updating itself; after a restart it carries on by itself.
+- A swarm or a Code job you moved there from this computer ("Move to away server") keeps working while this computer is off; "Pick up here" on this computer brings it back. See the pages "Swarms" and "Work and Code mode".
 
 ## What waits for your computer
 - Anything that needs this computer's screen, mouse, files or apps.
@@ -40,6 +41,15 @@ An away server is a second Pinchy without a screen, on a small machine that is a
 - While you set up the new machine your agents wait on this computer. Nothing runs twice, and nothing is deleted on this computer.
 - At the end you choose what happens to the old machine: "Clean it" (everything of Pinchy's is deleted from it; you get one line to remove the program itself) or "Leave it as it is" (he stops working there, its copy of his memory stays on its disk).
 - An agent that comes back to this computer loses the powers only you can give (working without asking, the wallet); the card names them.
+
+## Backup machines
+- Settings → Agents & automation → Away server, the "Backup machines" card: add a second machine (a home box, a spare laptop or another cloud server, set up the same way) with its address and pairing token.
+- This computer keeps ready copies of your away agents (renewed every 30 minutes). If your away server stops answering for 10 minutes, your agents move to a backup machine that answers, with their notes, and that machine becomes your away server. You get a notice.
+- "Move them by themselves" off: you get the notice and a "Move agents here" button instead. You can also move them on purpose any time.
+- When the old machine answers again, it stops working for you, its older copies of the moved agents are kept on this computer (nothing is lost) and removed there, and it becomes a backup machine.
+- While this computer is off it works too, once your cloud storage is shared with the away server (Cloud storage → Connection → "Your away server can use it too"): the machine in charge keeps a small note in your bucket up to date, a backup machine takes over only when that note went stale and the old machine does not answer, and a machine that can't update the note stops working first — so two machines never run your agents at once. Your phone reaches the new one after this computer is back; Telegram works at once.
+- Without that, this computer has to be on for a move.
+- A brand-new machine has no copy of Pinchy's brain yet, so its Pinchy does not start and agents can't move there: the card says so. Make it your away server once (Change…), let it sync, then switch back — after that it is a ready backup machine.
 
 ## How it works
 - The brain folder (memory, skills, tasks, what he made) is synced to the server every few minutes.

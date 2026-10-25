@@ -31,7 +31,7 @@ If you run coding agents yourself in your terminals, Pinchy can look after them:
 
 ## Settings
 Settings → Agents & automation → Your other agents:
-- **Let Pinchy manage your other agents**: off by default. While it is off he does not look at them at all.
+- **Let Pinchy manage your other agents**: off by default. While it is off he does not look at them at all. Tools you connected keep their small hook, but it does nothing until you switch this on again (Pinchy only keeps it up to date).
 - **When one of them asks for permission**: **Smart** (the rules above), **Ask me** (every request comes to you), or **Never answer** (he only watches and passes messages; each tool asks in its own window).
 - **Open now**: every agent he sees, its state and last line, with **Manage** and a button to show its terminal.
 - **On this computer**: each tool, whether it is installed, whether Pinchy is connected to it, and a **Connect** / **Disconnect** button with one line on what he can do with that tool.
@@ -43,7 +43,7 @@ Settings → Agents & automation → Your other agents:
 - **Hermes** keeps asking its own dangerous-command questions (Pinchy shows you when one waits); he stops the never-list and passes messages at its next turn. Connect also switches Pinchy's plugin on in Hermes.
 - pi and Hermes were tested against their plugin interfaces, not with a full model run on our side.
 - An agent that is open but whose tool is not connected shows with a green ring only: Pinchy sees it but cannot answer it or send it messages.
-- On Windows the Cursor hook and `pinchy-say` run through Pinchy's own program; Claude Code's hooks need `curl`, which comes with Git Bash.
+- On Windows the Cursor hook and `pinchy-say` run through Pinchy's own program; Claude Code's hooks need `curl`, which comes with Git Bash. While the switch is off, Claude Code's hook on Windows is a quick file check, but the Cursor hook still starts Pinchy's program briefly at each step; Disconnect Cursor if you don't use this.
 
 ---
 

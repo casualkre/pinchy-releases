@@ -29,6 +29,7 @@ You stay in charge of what Pinchy does on your computer. You can pause him at on
 - Settings → Safety & data → Safety: the note for auto-approved actions, how long a request waits, remembered permissions, the activity log.
 - Settings → Safety & data → Undo & history: keep a timeline with Undo (off by default), how many days and how much space copies may use, and "Open the timeline".
 - Settings → Safety & data → Check everything: one button that tests Claude, the microphone, shortcuts, screenshots and clicks, with a fix for anything that does not work.
+- "Pinchy froze" in Check everything: how often Pinchy froze or its background work got stuck in the last 24 hours, the longest one, when, and what was running then. Short pauses under 3 seconds are not counted.
 
 ## Limits
 - The timeline is off until you turn it on, and it covers chats started after that.

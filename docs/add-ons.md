@@ -1,7 +1,7 @@
 ---
 title: "Add-ons: connectors, skills and extensions"
 description: "Three ways to give Pinchy more: connectors link him to the apps and services you use, skills are know-how he loads when a task needs it, and extensions add new looks, tricks, tools and panels."
-keywords: "connector, connect, integration, MCP, plugin, extension, add-on, skill, install, library, github, gmail, calendar, notion, slack, google, google drive, google docs, google sheets, zapier, composio, easy connector, one sign-in, client id, manifest, super extension, super extensions, experimental, deep sea, hide a page, replace a page, engine, drift, extension theme"
+keywords: "connector, connect, two accounts, second account, work account, another account, integration, MCP, plugin, extension, add-on, skill, install, library, github, gmail, calendar, notion, slack, google, google drive, google docs, google sheets, zapier, composio, easy connector, one sign-in, client id, manifest, super extension, super extensions, experimental, deep sea, hide a page, replace a page, engine, drift, extension theme"
 permalink: /add-ons/
 ---
 # Add-ons: connectors, skills and extensions
@@ -18,6 +18,7 @@ Three ways to give Pinchy more: connectors link him to the apps and services you
 
 ## How it works
 - Connectors: each one is a tool server Pinchy can call. You switch on only the ones you want; their tools load when he needs them, so a connector you never use costs nothing in a chat.
+- Two accounts of one service (GitHub and GitHub (work), two Gmails): open the connected card, "Add another account", give it a name (work, me…), then its own sign-in or key. Each account is its own connector, so Pinchy and your agents tell them apart by that name; "Name" renames one, "Change key" on a row changes only that account's key. When you sign in the second time the browser lets you pick the account; if the service hands back the one you already have, Pinchy says so and keeps nothing.
 - Skills: a skill is a folder with instructions (and sometimes scripts). A switched-on skill loads by itself when a task matches. Skills you taught by showing are here too.
 - Extensions: an extension says what it wants to do (show a panel, add a tool, add a colour theme, run on a schedule, reach the internet). You see that list and say yes before it runs, and it runs in a sandbox with only those rights.
 
@@ -54,6 +55,7 @@ What a super extension can never touch: the windows where you decide (approvals,
 - Super extensions are experimental. A super extension can hide something you rely on; if anything looks wrong, switch it off and it is back.
 - Engines from extensions run when you ask for one by name. Work and Code keep their own engine, unless a super extension you switched on says it runs them; the list you read before switching it on says so.
 - A connector acts with your account: what he does there is done in your name. Sending and deleting ask first.
+- A connector you added yourself (your own address or program, one found in the MCP registry, or a library one whose address you changed) asks the first time it wants to CHANGE something — create, send, update, delete, run — even in full autonomy. The window shows what it would send, with anything that looks like a password, token or key blacked out. You answer Allow once, This session (until Pinchy restarts) or Always allow, and the answer is kept per connector and per tool: its other tools still ask the first time. Looking things up (get, list, search, read) never asks. Connectors from Pinchy's library and Pinchy's own tools work as before; agents follow their own permission settings.
 - Some services need a key or a one-time setup on their side; the connector's card walks you through it.
 
 ---

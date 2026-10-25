@@ -46,13 +46,15 @@ For work where being right matters: a long, fact-checked research run that ends 
 ## The Research tab
 - Workspace → Research (Alt+4 in the Workspace). You can also start a research there: write the question, pick Quick, Standard or Deep, and start.
 - Attach files or a folder with the paperclip next to the question (or drop them on it). They are read as material for the question, never as instructions.
+- Before the searchers start, the plan shows as a card: the sub-questions Pinchy wants to look into. Change one, remove one or add your own, then press Start — or do nothing and it starts by itself after 20 seconds. The first change you make stops the clock. (Research an agent or a task starts goes straight on.)
+- While the searchers run you can still change direction: Drop next to a sub-question takes it out (its findings too), and the box at the bottom adds a new one — a searcher picks it up and nothing starts over. Once the search step is over, ask a follow-up instead.
 - While it runs you see the steps (Plan, Search, Re-read, Verify, Write), the sub-questions Pinchy split your question into, and the pages as they come in: "Found — not re-read yet", then "Quote found on the page" once he has re-read the page himself, "Could not be opened" when the page was blocked, or "Thrown out: the quote is not on the page".
 - The report is read in the tab. A number like [3] after a sentence is its source: click it to see the page and the exact quote. The side panel lists Sources, the Plan, and the Claims with how well each is confirmed.
 - The box under the report asks a follow-up. The question and its follow-ups are one conversation, one row in the list on the left. Right-click a row to rename, pin or delete it.
 - Stop ends a running research and keeps what it found so far. "Open as a document" opens the saved report (it is also kept under Artifacts).
 
 ## Settings
-- Settings → Workspace → Deep research: default depth (Quick, Standard, Deep), the model for planning and writing, the model for the searchers.
+- Settings → Workspace → Deep research: default depth (Quick, Standard, Deep), "Show me the plan before it starts" (on: the plan card; off: it starts at once), the model for planning and writing, the model for the searchers.
 - Settings → Workspace → Specialists: Open Specialists; Default model and thinking effort; Use specialists; Let specialists watch the work (the switch for all of them). Under it the limits: Each specialist may spend at most ($ per hour), Pause between two looks by the same specialist, Let Pinchy correct an answer right away when a specialist catches a mistake, Show me critical notes too (a notification), Model for watching.
 
 ## Limits
