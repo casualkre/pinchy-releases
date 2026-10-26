@@ -22,12 +22,13 @@ The Android app talks to the Pinchy on your computer. You chat with him, follow 
 
 ## Away from home
 There are three ways. Any one is enough, and the Phone settings say in words which one is working.
-- Pinchy's own link: switch on "Reach Pinchy from anywhere". Pinchy opens a public address and the app talks to it by itself when no home address answers. Everything on it is sealed for this computer with keys only your phone and this computer have, so nobody in between can read or change it. No extra app on the phone.
+- Pinchy's own link: "Reach Pinchy from anywhere" (on unless you switch it off). Pinchy opens a public address and the app talks to it by itself when no home address answers. Everything on it is sealed for this computer with keys only your phone and this computer have, so nobody in between can read or change it. No extra app on the phone. With an away server, the server opens its own link the same way, so the phone still reaches your agents there while this computer is off.
 - Tailscale: install it on the computer and the phone and sign in with the same account. The Phone settings show the steps.
 - An away server that can be reached from the internet. See the page "Away server".
+- Secrets never go through an away server: your admin password, what you type on your computer or on an agent's computer from the phone, and cloud storage keys go only to the computer itself — over a home address, Tailscale, or Pinchy's own link. When none of those answers, the app says so and sends nothing.
 
 About the link:
-- It is off until you switch it on. The first time, Pinchy downloads the small free tunnel program it uses (a checked, fixed version).
+- It is on unless you switch it off. The first time, Pinchy downloads the small free tunnel program it uses (a checked, fixed version).
 - A phone must have been on your home Wi-Fi once after it was paired or updated to 2.5. That is when it gets its keys. The app does this by itself and says so under Connection in its settings.
 - The link's address changes when it restarts. Pinchy leaves a sealed note with the new address and the app reads it by itself. If it ever hangs: "Reconnect now" in the Phone settings, or tap the red line in the app.
 - While the computer is off, the link is off too. An away server keeps going; see its page.

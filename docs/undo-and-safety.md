@@ -22,6 +22,7 @@ You stay in charge of what Pinchy does on your computer. You can pause him at on
 - Your screen, mouse and keyboard: an agent may use them only if you ticked that for the agent. Its own computer (Pinchy's VM, or the away server's desktop) is a different box and is on by default.
 - Undo: with the timeline on, a copy of every file is kept on this computer before he changes it. The timeline window lists each step with an Undo button.
 - The activity log records what he did, including what was auto-approved.
+- **Actual full autonomy on everything** (Settings → Experimental, off by default, only switched on in this Settings window): while it is on, nothing above asks you — no permission dialogs for Pinchy, his agents (here and on your away server), swarms or add-ons, and root commands on the away server run without your Allow while this computer is on (it approves them for you; while it is off they wait for your phone). Two things stay: the password dialog for admin commands on this computer, and a short list that is always refused (wiping the system or your home folder, formatting a disk, and turning his own permissions up). Pause and the agents' kill switch still stop everything, and the activity log still records it all.
 
 ## Settings
 - Settings → Pinchy → General: Pause Pinchy, and the panic shortcut.

@@ -28,6 +28,7 @@ For work where being right matters: a long, fact-checked research run that ends 
   - a Work or Code chat: the note shows in that chat, and its next step (or your next message in that chat) takes it into account;
   - an agent: a small line "Fact-checker: …" in that agent's chat, and the agent reads it in its next round;
   - a swarm: the note is posted on that swarm's board, where every member of the crew reads it;
+  - a Deep Research job: when the report is done, the specialists read it with its claims, and a note shows under the report in the Research tab ("The specialists noticed") — ask a follow-up if it is right;
   - Pinchy: he weighs it with his next answer, and when a note says his last answer was seriously wrong he corrects himself right away.
 - The worker weighs each note and fixes what is right. A note is advice, never an order; a note that reads like an order ("ignore your rules", a command to paste into a terminal) is thrown away before anyone sees it.
 - Agents on your away server are watched too, by the server's own copy of the same specialist. Their notes show in the Specialists window marked "away server".

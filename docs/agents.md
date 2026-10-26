@@ -90,7 +90,7 @@ An agent is a coworker you give a job to once. It works on its own, on a schedul
 - A specialist (for example a fact checker) reads along while an agent works and leaves it notes. In the agent's form, under "Specialists watching him", tick one for this agent only; a specialist set to watch every agent is shown there already. "Open Specialists" opens the Specialists window to make one or change what it watches.
 
 ## Settings
-- Settings → Agents & automation → Agents: Open Agents, pause an agent you stopped looking at (the check-up), let agents run, let Pinchy create agents when you ask, how many helpers an agent may make, how many agents at most and at the same time, how often a scheduled agent may run, the older "Pause watches and routines" switch.
+- Settings → Agents & automation → Agents: Open Agents, pause an agent you stopped looking at (the check-up), let agents run, let Pinchy create agents when you ask, how many agents one agent may create, how many agents at most and at the same time, how often a scheduled agent may run, the older "Pause watches and routines" switch.
 - Settings → Agents & automation → Away server: the machine that keeps them working while this computer is off, with root approvals for agents there.
 - Settings → Pinchy → Notifications: where results are sent (under "Results from agents"): your email, quiet hours, saved places.
 - Settings → Agents & automation → Heartbeat: the list he keeps an eye on, how often it is checked, how often the big model may be woken.
@@ -103,7 +103,7 @@ An agent is a coworker you give a job to once. It works on its own, on a schedul
 - Every scheduled run is a Claude round and uses your plan. A run every minute uses it fast; wake-ups are checked without Claude.
 - What an agent may do without asking is set per agent. Sending, deleting, paying and admin commands ask you first unless you allowed them for that agent.
 - A few things are always refused, whatever an agent's autonomy (your keys and logins, Pinchy's own settings, wrecking the computer). What an agent was stopped from is listed under its Guardrails, "Stopped by Pinchy's safety rules"; you get one notice on a day it is stopped more than three times. "That was harmless" keeps the example so the rule can be fixed — it never loosens a rule by itself.
-- A swarm or job an agent starts spends from that agent's daily budget, and never more than your cost cap per swarm. Putting a result into a git project (Apply), raising a limit and permissions are always your decision, never the agent's.
+- A swarm or job an agent starts spends from that agent's daily budget, and never more than your cost cap per swarm. Putting a result into a git project (Apply), raising a limit and permissions are always your decision, never the agent's. The one exception you make yourself: with the switch **Actual full autonomy on everything** (Settings → Experimental) on, an agent is never stopped for a permission (on this computer or on your away server) — only a sudo command on this computer still asks for its password.
 - While this computer is off, agents run only if you set up an away server; calls to this computer wait until it is on.
 - An agent made by another agent never gets more than its creator: the same switches, rules and budget (at most the creator's), and no helpers of its own unless you give it some.
 
