@@ -89,6 +89,10 @@ An agent is a coworker you give a job to once. It works on its own, on a schedul
 ### Specialists on an agent
 - A specialist (for example a fact checker) reads along while an agent works and leaves it notes. In the agent's form, under "Specialists watching him", tick one for this agent only; a specialist set to watch every agent is shown there already. "Open Specialists" opens the Specialists window to make one or change what it watches.
 
+## An agent's profile
+
+Each agent has a profile in the Agents window: its name, its description and the things it has made. You can give it a banner, a PNG or an MP4, and banners can change with the agent's status or other triggers you set.
+
 ## Settings
 - Settings → Agents & automation → Agents: Open Agents, pause an agent you stopped looking at (the check-up), let agents run, let Pinchy create agents when you ask, how many agents one agent may create, how many agents at most and at the same time, how often a scheduled agent may run, the older "Pause watches and routines" switch.
 - Settings → Agents & automation → Away server: the machine that keeps them working while this computer is off, with root approvals for agents there.

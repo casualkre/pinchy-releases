@@ -1,7 +1,7 @@
 ---
 title: "Telegram: talk to Pinchy from a chat app"
 description: "Pinchy can live in a Telegram chat. You write to your own bot, Pinchy answers there, and he tells you when something needs you: an approval, a question, an agent that is done, a swarm that finished. It works from anywhere your phone has internet, without the Pinchy phone app."
-keywords: "telegram, messenger, code job from telegram, work job from telegram, /code, /work, /jobs, approve from a chat, admin password from telegram, sudo from telegram, from tag, messaging app, bot, botfather, chat from my phone, text pinchy, message pinchy, approve from telegram, notifications, away, pc off, computer closed, voice note, send a photo, send a file, board, dm, swarm from telegram"
+keywords: "telegram, messenger, krill from telegram, code job from telegram, work job from telegram, /krill, /code, /research, /work, /jobs, approve from a chat, admin password from telegram, sudo from telegram, from tag, messaging app, bot, botfather, chat from my phone, text pinchy, message pinchy, approve from telegram, notifications, away, pc off, computer closed, voice note, send a photo, send a file, board, dm, swarm from telegram"
 permalink: /telegram/
 ---
 # Telegram: talk to Pinchy from a chat app
@@ -14,7 +14,7 @@ Pinchy can live in a Telegram chat. You write to your own bot, Pinchy answers th
 - Send a photo with a question: "what is wrong with this error?" Send a file and he saves it and reads it.
 - "/agents" shows your agents with Run and Pause buttons. Reply to an agent's message to talk to that agent.
 - "/to Price watcher how much is it today?" talks to one agent. The chat then stays with that agent: what you write next goes to it too. "/pinchy" brings you back to Pinchy.
-- "/code fix the login redirect" starts a Code job, "/work write a one-page summary of this month's invoices" starts a Work job. The chat tells you when the job needs you and when it is done.
+- "/code fix the login redirect" starts a code krill, "/krill write a one-page summary of this month's invoices" starts a plain one ("/work" does the same), "/research …" a research krill. The chat tells you when it needs you and when it is done.
 - "/swarm compare five note apps for a small team" starts a crew. When they finish, the result and its files arrive in the chat.
 
 ## Setting it up
@@ -28,7 +28,7 @@ Pinchy can live in a Telegram chat. You write to your own bot, Pinchy answers th
 - Approvals, with what is asked, why, and Approve and Deny buttons.
 - Pinchy's questions, with the choices as buttons when he offers some.
 - What an agent says: an ordinary message whose first line is "from" and the agent's name. Reply to it to steer that agent. Run and Pause are in "/agents".
-- A Code or Work job that waits for you: what it wants and why. A command has Approve and Deny, a plan has Start and Cancel the job; anything else you answer with a reply.
+- A krill that waits for you: what it wants and why. A command has Approve and Deny, a plan has Start and Cancel the job; anything else you answer with a reply.
 - One message for each finished round of an agent, however many places it is delivered to.
 - "/needs" lists everything that is waiting for you.
 - "/made" lists what he made lately (reports, tables, write-ups). Tap one to get it as a file.
@@ -44,16 +44,16 @@ Pinchy can live in a Telegram chat. You write to your own bot, Pinchy answers th
 - A chat you leave alone for six hours is with Pinchy again.
 - This works for agents and tasks, on your computer and on your away server. Swarms have their own commands (below).
 
-## Code and Work jobs
-- "/code <what you want>" starts a Code job in the project you used last. "/code in ~/projects/site: <what you want>" names the folder. The first message says which folder it works in.
-- "/work <what you want>" starts a Work job: a document, a table, a write-up.
-- While a job works, its first message shows the step it is on.
-- A small job just starts. A bigger one shows its plan first when you asked for that (Settings → Workspace → Runs, "Plan first and wait for my OK"): the plan with Start and Cancel the job. Reply to the message to say what to change.
+## Krill
+- "/code <what you want>" starts a code krill in the project you used last. "/code in ~/projects/site: <what you want>" names the folder. The first message says which folder it works in.
+- "/krill <what you want>" (or "/work") starts a plain krill: a document, a table, a write-up. "/research <question>" starts a research krill.
+- While a krill works, its first message shows the step it is on.
+- A small krill just starts. A bigger one shows its plan first when you asked for that (Settings → Workspace → All krill, "Plan first and wait for my OK"): the plan with Start and Cancel. Reply to the message to say what to change.
 - When one of its commands needs your OK, the chat shows the command and what it is for, with Approve and Deny.
 - When it needs something else from you, the message says what. Reply to answer.
-- A finished Code job says what it changed, with Apply, Keep as a branch and Discard. Nothing is in your folder until you tap Apply. A finished Work job has a button that sends you its file.
-- A reply to any message of a job talks to that job: it steers it while it works and goes on with it after it is done.
-- "/jobs" lists your jobs. A job you start here is also a conversation in the Code or Work window on your computer.
+- A finished code krill says what it changed, with Apply, Keep as a branch and Discard. Nothing is in your folder until you tap Apply. A finished plain krill has a button that sends you its file.
+- A reply to any message of a krill talks to that krill: it steers it while it works and goes on with it after it is done.
+- "/jobs" lists your krill. One you start here also shows in Agents → Workspace on your computer.
 
 ## Approving from the chat
 - Every request says what it is and why. For an admin (sudo) command that is the computer, the exact command and the folder.
@@ -76,7 +76,7 @@ Pinchy can live in a Telegram chat. You write to your own bot, Pinchy answers th
 ## When your computer is off
 - With an away server (see the page "Away server") and "Keep answering while this PC is off" switched on, the server answers your bot while your computer is asleep or off.
 - Pinchy on the server answers your messages himself, with the same memory. Photos and files work. Voice notes do not: speech is turned into text on your computer.
-- "/agents", "/run <name>", "/needs", "/status", "/pause", "/resume", "/stop" and "/new" work there. Swarms, "/code", "/work", "/made" and anything that needs your computer's screen or files wait until it is back on.
+- "/agents", "/run <name>", "/needs", "/status", "/pause", "/resume", "/stop" and "/new" work there. Swarms, "/krill", "/code", "/research", "/work", "/made" and anything that needs your computer's screen or files wait until it is back on.
 - If an agent on the server meets a captcha or a sign-in, the chat tells you. You open the screen in the Pinchy phone app and then tap "I'm done" in either place.
 - If the server cannot answer, the chat says why, for example that the server has no Claude sign-in yet.
 

@@ -49,11 +49,11 @@ What a super extension can never touch: the windows where you decide (approvals,
 - Settings → Add-ons → Skills: Pinchy's skills, also use my own Claude Code skills (on by default), install from the libraries.
 - Settings → Add-ons → Extensions: installed extensions, what each may do, the library.
 - Settings → Experimental: the **Super extensions** switch, off by default. Off (or Experimental locked) stops every super extension at once.
-- Settings → Brain → Claude → Claude Code on this computer: also load the tool servers you use in Claude Code (off by default).
+- Settings → Brain → Chat → Claude Code on this computer: also load the tool servers you use in Claude Code (off by default).
 
 ## Limits
 - Super extensions are experimental. A super extension can hide something you rely on; if anything looks wrong, switch it off and it is back.
-- Engines from extensions run when you ask for one by name. Work and Code keep their own engine, unless a super extension you switched on says it runs them; the list you read before switching it on says so.
+- Engines from extensions run when you ask for one by name. Plain and code krill keep their own engine, unless a super extension you switched on says it runs them; the list you read before switching it on says so.
 - A connector acts with your account: what he does there is done in your name. Sending and deleting ask first.
 - A connector you added yourself (your own address or program, one found in the MCP registry, or a library one whose address you changed) asks the first time it wants to CHANGE something — create, send, update, delete, run — even in full autonomy. The window shows what it would send, with anything that looks like a password, token or key blacked out. You answer Allow once, This session (until Pinchy restarts) or Always allow, and the answer is kept per connector and per tool: its other tools still ask the first time. Looking things up (get, list, search, read) never asks. Connectors from Pinchy's library and Pinchy's own tools work as before; agents follow their own permission settings.
 - Some services need a key or a one-time setup on their side; the connector's card walks you through it.

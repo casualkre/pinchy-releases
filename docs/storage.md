@@ -1,12 +1,12 @@
 ---
 title: "Storage: how much space Pinchy uses"
-description: "Pinchy keeps his work on your computer: swarms with their working copies, Work and Code runs, caches, the agents' computer (a VM disk) and his memory. The Storage page shows how much each of those takes and frees what is safe, and Pinchy tells you when your disk gets almost full."
+description: "Pinchy keeps his work on your computer: swarms with their working copies, krill, caches, the agents' computer (a VM disk) and his memory. The Storage page shows how much each of those takes and frees what is safe, and Pinchy tells you when your disk gets almost full."
 keywords: "storage, disk, disk space, disk full, free space, free up space, clean up, tidy, cache, how much space, what takes space, old swarms, delete old runs, trash"
 permalink: /storage/
 ---
 # Storage: how much space Pinchy uses
 
-Pinchy keeps his work on your computer: swarms with their working copies, Work and Code runs, caches, the agents' computer (a VM disk) and his memory. The Storage page shows how much each of those takes and frees what is safe, and Pinchy tells you when your disk gets almost full.
+Pinchy keeps his work on your computer: swarms with their working copies, krill, caches, the agents' computer (a VM disk) and his memory. The Storage page shows how much each of those takes and frees what is safe, and Pinchy tells you when your disk gets almost full.
 
 ## What to ask for
 - "How much space do you use?" He reads it out by kind, biggest first.
@@ -14,7 +14,7 @@ Pinchy keeps his work on your computer: swarms with their working copies, Work a
 - "My disk is almost full." He shows what of his takes the space and what can go.
 
 ## How it works
-- The Storage page (Settings → Safety & data → Storage): it lists swarms, Work/Code/Review runs, leftovers and caches, and what Pinchy keeps (the agents' VM disk, his browser's logins, speech models, files, agents, memory), each with its size.
+- The Storage page (Settings → Safety & data → Storage): it lists swarms, krill and reviews, leftovers and caches, and what Pinchy keeps (the agents' VM disk, his browser's logins, speech models, files, agents, memory), each with its size.
 - "Free … now" removes only copies Pinchy can always make again: browser caches (your logins stay), old update downloads, unfinished cloud backup files, and the scratch folder of a run that ended more than 3 days ago.
 - A finished swarm or run goes only when you tick it and click twice, and it goes to the Trash, so you can still get it back. Empty the Trash to get that space.
 - Anything still running or waiting for you (a swarm, a run, a backup, a swarm waiting for your plan to reset) is shown but can't be picked.

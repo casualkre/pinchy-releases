@@ -45,7 +45,7 @@ About the link:
 - Pinchy knows whether you are at the computer or on the phone: the computer's idle time and lock, and the app telling it when it is open.
 - A permission prompt or a question from the chat buzzes your phone as soon as you leave the computer, or when it has waited 30 seconds and you haven't touched the computer.
 - A permission prompt that reached your phone waits up to 10 minutes for your answer instead of 2, so you have time to take the phone out. The window on the computer counts down and says it went to your phone too. When the time is up it counts as No.
-- Walk away while Pinchy is still answering or one of your Work or Code jobs runs, and the phone gets one quiet "still on it — follow it here" that opens it. Once per answer or job, never while you're at the computer; the "done" notification replaces it.
+- Walk away while Pinchy is still answering or one of your krill runs, and the phone gets one quiet "still on it — follow it here" that opens it. Once per answer or krill, never while you're at the computer; the "done" notification replaces it.
 - While the app is open on your phone and the computer isn't being used, the computer's own pop-ups stay quiet (they are still in its list).
 - When Claude is overloaded or busy, the chat on the phone says "Claude is overloaded — trying again (2/10)…" instead of a silent "Thinking…".
 - Stop in the phone chat ends his answer on the phone at once; what he wrote so far stays.
@@ -63,7 +63,7 @@ About the link:
 - Jobs he started (a swarm, a Code or Work run, a helper) show as live cards in his chat: watch, tell it something, or stop it. A helper lined up after another one says so ("starts after …") and can be taken off. A finished one says where its work is (its branch, its checks, its files); "Try again" runs it once more, with what to do differently if you write it.
 - A message you send while Pinchy can't be reached (your computer off and no away server, or no signal) is not lost: it stays in the chat as "Waiting to send" and goes out by itself as soon as Pinchy answers again — once, even if it is tried more than once. "Cancel" takes it back into the box. This works in an agent's chat and in your chat with Pinchy; the Agents list shows "Waiting to send" on that agent.
 - An agent's question is a message in his chat. Tap one of his answers or type your own. If he asked without waiting ("He asked — and carries on meanwhile"), he keeps working and takes your answer when it comes; that kind never raises the "needs you" alarm.
-- A Code or Work job that has finished can still be talked to: write the next thing in its box and he goes on in the same conversation.
+- A krill that has finished can still be talked to: write the next thing in its box and he goes on in the same conversation.
 - New agent: the form has one row "Which creature" (lobster, shrimp, pistol shrimp, mantis shrimp, crayfish) with one sentence on what each is best at. Every picture of an agent in the app shows his creature and colour.
 - "How free he is" shows his level. From the phone you can only give him less freedom. More freedom, and "Real full autonomy", are given on the computer.
 - If you change the machine that keeps Pinchy working while your computer is off, the phone follows by itself the next time it reaches your computer.

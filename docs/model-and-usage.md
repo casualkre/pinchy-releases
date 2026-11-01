@@ -16,16 +16,16 @@ Pinchy runs on your Claude plan. You choose the model he thinks with and how car
 
 ## How it works
 - Background work uses the small current models unless you pick another one in Settings: Haiku 5.5 for memory updates, the regular check, the quick answer before a job and writing help; Sonnet 5.5 for specialists that read along, lessons he writes from what you showed him, and research searches.
-- Model: one setting for chats. Work, Code, agents and swarms have their own model settings.
+- Model: one setting for chats. Agents, krill and swarms have their own model settings. Which model does which kind of work is your delegation profile, see the Delegation page.
 - Usage level: Full quality, Balanced or Saver. Every level loads his rarely used tools only when he needs them. Balanced and Saver also carry less of his memory in every message and look older chats up when they matter.
 - Quota saver: when the 5-hour window is nearly used up (85% by default), the chat moves to a cheaper model, answers get shorter and agents that run on a schedule wait. Reminders and anything marked essential still run.
 - A new chat starts by itself when the bubble has been closed for a while (2 minutes by default), so an old conversation does not ride along forever. The key points of your last chats are remembered.
 - He does not carry a manual of himself in every message. When you ask how something works or where a setting is, he looks it up in these docs.
 
 ## Settings
-- Settings → Brain → Claude: the model, the usage level, when a fresh chat starts, keep Pinchy ready to answer, messages while he works change the job, the quota saver and its threshold, the chat model while saving quota.
-- Settings → Brain → Claude → Permissions: how much he may do in chats and in an agent's scheduled runs without asking.
-- Settings → Brain → Claude → Claude Code on this computer: also load the tool servers you use in Claude Code (off by default), where the claude program is.
+- Settings → Brain → Chat: the model, the usage level, when a fresh chat starts, keep Pinchy ready to answer, messages while he works change the job, the quota saver and its threshold, the chat model while saving quota.
+- Settings → Brain → Chat → Permissions: how much he may do in chats and in an agent's scheduled runs without asking.
+- Settings → Brain → Chat → Claude Code on this computer: also load the tool servers you use in Claude Code (off by default), where the claude program is.
 
 ## Limits
 - "Keep Pinchy ready to answer" keeps one Claude process waiting while the chat is open (about 230 MB of memory) so the first answer comes sooner.

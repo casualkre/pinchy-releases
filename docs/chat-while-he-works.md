@@ -25,7 +25,7 @@ You can type and send messages while Pinchy is working on a job. Your message jo
 - Stop greys out ("Stopping…") the moment you press it; one press is enough. It also closes a permission window that was waiting for that job.
 
 ## Settings
-- Settings → Brain → Claude → "Messages while he works change the job": on by default. Off: a message sent while he works waits, and he answers it after the job is finished. It shows under his reply as "Waiting: …"; **Take back** puts its words back in your box. If you press Stop, a waiting message is not sent, and the chat says so.
+- Settings → Brain → Chat → "Messages while he works change the job": on by default. Off: a message sent while he works waits, and he answers it after the job is finished. It shows under his reply as "Waiting: …"; **Take back** puts its words back in your box. If you press Stop, a waiting message is not sent, and the chat says so.
 
 ## When something goes wrong
 - "Claude is overloaded — trying again (2/10) in 8 s" (or "Can't reach Claude"): Claude Code tries again by itself, a few times. You don't need to do anything; Stop ends it.

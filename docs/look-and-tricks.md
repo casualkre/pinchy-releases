@@ -19,7 +19,7 @@ How Pinchy looks and behaves on your desktop: the theme of every window, his tri
 ## How it works
 - Themes: 31 theme families, each in light and dark, with an accent colour and an icon style. A change shows at once in every window.
 - More themes: an extension can add colour themes. They appear under "From your extensions" while that extension is switched on; switch it off and you are back on the theme you had before.
-- Tricks: he learns a new trick at every milestone. Chats, finished tasks, Work and Code runs, agents and voice all count, and the last trick is a surprise. Extensions can add tricks too.
+- Tricks: he learns a new trick at every milestone. Chats, finished tasks, krill, agents and voice all count, and the last trick is a surprise. Extensions can add tricks too.
 - Notifications arrive as a small bubble next to him; important ones also go to the system notification tray. You can ask for a desktop notification explicitly.
 - Shortcuts are global: they work in any app. Every shortcut can be changed, and each feature shows its own shortcut where it is mentioned.
 - Fullscreen apps: while a game, a video or any other program is fullscreen on his screen, he tucks in at the right edge with only his claws showing and hardly draws anything. If something needs you he leans out and waves. He comes back to where he was when it leaves fullscreen. Drag him out and he stays out until that program leaves fullscreen.

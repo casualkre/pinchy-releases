@@ -27,7 +27,7 @@ Pinchy's memory is a plain folder of markdown files on your computer, called his
 - `CAPTURED.md`: the list of what was saved from finished jobs, newest last.
 
 ## Saving finished work
-- When a Work or Code job, a swarm, an agent run or a deep research finishes, Pinchy files its own summary in the brain: what was made, where the files are, what is still open.
+- When a krill, a swarm, an agent run or a deep research finishes, Pinchy files its own summary in the brain: what was made, where the files are, what is still open.
 - Few notes that grow, not one note per job: everything done in one project folder goes into that project's note with the newest entry first, an agent's results go into that agent's note, a research answer into a note named after the question.
 - The same job finishing again replaces its entry. A run that found nothing new is not saved.
 - These notes are not read at the start of a chat. He finds them when he looks something up, so they cost nothing until they are needed.
@@ -43,7 +43,7 @@ Pinchy's memory is a plain folder of markdown files on your computer, called his
 
 ## Settings
 - Settings → Brain → Memory: switch memory on or off, pick the brain folder (any visible folder works, for example `~/Pinchy Brain`), how often he updates his notes, the "Noted" message, recent chats, the daily recap, and how much memory is read at the start of a chat.
-- Settings → Brain → Memory → Saving finished work: one switch for all of it ("Save what finished jobs found out"), and one each for Work jobs, Code jobs, Swarms, Agent results and Research.
+- Settings → Brain → Memory → Saving finished work: one switch for all of it ("Save what finished jobs found out"), and one each for Work krill, Code krill, Swarms, Agent results and Research.
 - Settings → Brain → Memory → Open brain folder: opens the folder in your file manager.
 - Settings → Brain → Instructions: your standing instructions (the same text as AGENTS.md).
 - Settings → Safety & data → Backup & move: save the whole brain (with skills, tasks and settings) into one file.

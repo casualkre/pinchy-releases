@@ -14,13 +14,13 @@ Code review reads a project for real problems (crashes, wrong results, lost data
 - "Look especially at the login flow." What you say goes to every reader as the focus.
 - "Review https://github.com/owner/name." A repository by its address, without cloning it yourself.
 - "Review my lobster repo and test it at https://my-site.example.com." The source from GitHub, the running website tried on his desk.
-- "Fix the two high ones from the review." One Code job fixes exactly those, on its own branch.
+- "Fix the two high ones from the review." One code krill fixes exactly those, on its own branch.
 - "Review https://github.com/owner/name/pull/12." Only what that pull request changes is read; you can post the findings on it afterwards.
 - "Review the rest of Pinchy." The next review reads the files no earlier review of that project read, or that changed since.
 - "Have the Coder agent review the api-server every Friday." Agents can start review jobs too; their reviews show in the same window, tagged with the agent's name.
 
 ## How it works
-- Where: the Code review window. Open it from the tray menu (Code review), from the Workspace sidebar, from his right-click menu (add the Code review tile when you customise it), or just ask him.
+- Where: the Code review window. Open it from the tray menu (Code review), from his right-click menu (add the Code review tile when you customise it), or just ask him.
 - The start page: pick a folder on this computer (recent folders are offered) or a repository (pick one of your own from the list, or type its address: https://, ssh:// or git@host:path, an optional branch), the whole project or only what changed, what happens when he finds something (Just show me, Let me pick, Fix them too), whether he tries the app, and how deep he reads (Quick reads the riskiest parts, Deep uses several readers and desks at once). An optional line says what to look at especially.
 - The stages show at the top while it runs: Looking around, Running its checks, Reading the code, Double-checking, Trying the app, Writing it up, and Fixing when you chose Fix them too. The bar under them is how much of the code has been read.
 - What he reads first: the project's own code before scripts, tests and test data; among those, what no earlier review of the project read (or what changed since), and what changes often for its size. A big file is read in parts (each reader gets its own lines and a list of what the rest of the file holds) instead of being skipped. Files that are generated or minified are skipped, and so is any link that points outside the project. Each part is read for what that kind of code most often gets wrong first (input from outside, ordering and timing, what the screen shows, data that is kept, plain wrong results, calls between files) and every other real problem too; a Deep review reads its busiest parts twice, through two of those lenses.
@@ -45,7 +45,7 @@ Code review reads a project for real problems (crashes, wrong results, lost data
 - Watching a project: on a folder's review, choose "Review every night" or "Review after every push". He then reviews only what changed since the last review, by himself, and tells you only when a NEW high problem shows up; the results wait in this window. Off for every project until you turn it on.
 - Keys in a review: j / k (or ↓ / ↑) walk the findings, x ticks one for fixing, o opens its file, / searches, Esc clears the kind / area filter.
 - Areas: the readers split the project into areas. While he reads, the Areas tab shows them lighting up one by one; afterwards it is the map of what was read and where the problems are — click an area to see only its findings. A narrow window shows the findings opening in place instead of on the right.
-- Fixing: tick findings and press Fix selected (or Fix this on one). That starts one normal Code job on its own branch. When it is done the finding says Fix ready, and the bottom of the window has Apply, Keep as a branch and Throw away. Nothing reaches your branch until you press Apply.
+- Fixing: tick findings and press Fix selected (or Fix this on one). That starts one code krill on its own branch. When it is done the finding says Fix ready, and the bottom of the window has Apply, Keep as a branch and Throw away. Nothing reaches your branch until you press Apply.
 - After a fix: when the fix job is done, the review checks the fixed findings again on the fix's own branch and marks each Closed ✓ or Still there (Check again does it once more).
 - Not a problem: dismiss a finding and say why if you like. It moves to Dropped, and the next review of the same project is told, so the same thing is not raised again.
 - He learns what you want: 👍 on a finding (a good find) or 👎 / Not a problem (not a bug here) becomes a line in this project's review rules, which every reader and the checker of the next review read. They are your preferences: they can make him skip a kind of finding you do not want, never make him keep quiet about a security hole, a crash or lost data. Open the rules file from the review to read or edit it by hand; each learned line says when you voted.
@@ -58,7 +58,7 @@ Code review reads a project for real problems (crashes, wrong results, lost data
 - No code, only the app: a folder without source code where you gave the app itself (a website or a program file) is a review of the app alone — he tries it on his desk and what he sees are the findings.
 
 ## Settings
-- The model that does the review is the one for Code mode: Settings → Workspace → Code mode.
+- The model that does the review is the one for Code krill: Settings → Workspace → Code krill.
 - Trying the app needs Pinchy's own desk: Settings → Computer → Pinchy's own desk. When it is off or cannot run on this computer, the review says so and reviews the code only.
 
 ---

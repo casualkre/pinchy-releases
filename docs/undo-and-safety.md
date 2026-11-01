@@ -26,7 +26,7 @@ You stay in charge of what Pinchy does on your computer. You can pause him at on
 
 ## Settings
 - Settings → Pinchy → General: Pause Pinchy, and the panic shortcut.
-- Settings → Brain → Claude: how much he may do without asking (the permission mode).
+- Settings → Brain → Chat: how much he may do without asking (the permission mode).
 - Settings → Safety & data → Safety: the note for auto-approved actions, how long a request waits, remembered permissions, the activity log.
 - Settings → Safety & data → Undo & history: keep a timeline with Undo (off by default), how many days and how much space copies may use, and "Open the timeline".
 - Settings → Safety & data → Check everything: one button that tests Claude, the microphone, shortcuts, screenshots and clicks, with a fix for anything that does not work.

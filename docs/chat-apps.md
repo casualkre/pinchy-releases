@@ -12,7 +12,7 @@ Besides Telegram, Pinchy can answer in Discord, Slack and Matrix (Element and ot
 - Just write to the bot: "what is my backup agent doing?" He answers in that chat.
 - "status" shows what Pinchy is doing. "needs" lists what is waiting for you. "agents" shows your agents.
 - "/to Translator say this in French: good morning" talks to one agent, and the chat stays with it until you write "/pinchy". In Slack write "!to Translator …" and "pinchy". If two agents fit the name, you pick one: a button in Discord and Slack, a number in Matrix.
-- "/code fix the login redirect" starts a Code job and "/work …" a Work job, as in Telegram. It writes when it needs you and when it is done; reply to its message to talk to it; "/jobs" lists them. In Slack write "!code", "!work" and "jobs".
+- "/code fix the login redirect" starts a code krill, "/krill …" a plain one ("/work" does the same) and "/research …" a research krill, as in Telegram. It writes when it needs you and when it is done; reply to its message to talk to it; "/jobs" lists them. In Slack write "!code", "!krill", "!research", "!work" and "jobs".
 - An agent's message is an ordinary message that starts with "from" and its name. Reply to it to talk to that agent.
 - When he asks for your OK, press Approve or Deny in Discord and Slack. In Matrix the choices are numbered: reply to his message with the number.
 - Send a file or a picture with a question and he reads it.

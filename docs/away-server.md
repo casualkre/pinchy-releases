@@ -21,7 +21,7 @@ An away server is a second Pinchy without a screen, on a small machine that is a
 - Telegram: with "Keep answering while this PC is off" switched on, Pinchy on the server answers your messages. See the page "Telegram".
 - The phone app shows the server's agents and what is waiting for you, and lets you answer them.
 - A swarm working on the server is not interrupted by the server updating itself; after a restart it carries on by itself.
-- A swarm or a Code job you moved there from this computer ("Move to away server") keeps working while this computer is off; "Pick up here" on this computer brings it back. See the pages "Swarms" and "Work and Code mode".
+- A swarm or a code krill you moved there from this computer ("Move to away server") keeps working while this computer is off; "Pick up here" on this computer brings it back. See the pages "Swarms" and "Krill".
 
 ## What waits for your computer
 - Anything that needs this computer's screen, mouse, files or apps.
