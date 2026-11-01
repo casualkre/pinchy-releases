@@ -27,7 +27,7 @@ Pinchy can think with any API key or a model running on your own computer, next 
 - With a router like OpenRouter some models can reach companies Pinchy doesn't allow, so those are filtered out, and a run stops if a router lands on one anyway.
 - On an Anthropic key, if a safety check refuses a request on Fable 5.1, Opus 5.5, Opus 5 or Sonnet 5.5, Anthropic reruns it on another model and the chat says which.
 - Spending numbers come from each provider's price list. A model with no known price shows as price unknown, not as free.
-- Grok is banned. No Grok models, no xAI or SpaceX AI keys or addresses, through any road.
+- Grok can't be used. Its models never show in a menu, and xAI or SpaceX AI keys and addresses are refused, through any road.
 - Limits, spending caps and fallbacks are on the Delegation page: see Delegation.
 
 ## Settings

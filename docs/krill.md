@@ -21,7 +21,8 @@ Krill replaced Work mode and Code mode. Old Work and Code jobs are still there, 
 
 ## Where they are
 - Agents window → **Workspace** tab: every krill and swarm, here or on your cloud server. The list shows what needs you first, then what is working, then what is finished. Search and filters are at the top.
-- **New** starts one. Pick a kind, say the goal, add files or a folder, pick where it runs and with which model.
+- **New krill** starts one. Pick its type on the form (plain, code, code review, research, swarm of krill), say the goal, add files or a folder, pick where it runs and with which model.
+- Right click a row for what you can do with it.
 - Pinchy starts them for you when you ask in the chat, and so do agents, your phone and scheduled tasks. The list says who started each one.
 - Each kind of krill can run on any model you have connected: Claude Code, another CLI, an API key or a local model. A model that can't do tools well will do the job worse, it won't change the rules below.
 

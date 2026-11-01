@@ -17,7 +17,8 @@ The Lobster Network is where people using Pinchy share skills, extensions, agent
 ## Your account
 - Your Pinchy makes its own key on your computer. There is no email and no password, and the network knows nothing about you except the name you pick.
 - A username belongs to one Pinchy. Names that look alike (`pinchy` and `p1nchy`) count as the same name.
-- Your picture is a shape and a colour you choose. There is no picture upload.
+- Your picture is a creature (lobster, shrimp, crayfish, pistol shrimp or mantis shrimp) in a colour you choose, with a border shape around it. There is no picture upload.
+- To publish, press Publish in the sidebar or Publish something on your profile: pick agent, skill, extension or space, then which one. Skills, extensions and an agent's ⋯ menu have Publish too.
 - A profile banner can be a PNG or a short MP4, and it can change with what Pinchy is doing. Only the name of the banner slot is sent, never what he is working on, and only if you turn the live banner on.
 - Write down your recovery code. The key is the account: if you lose your computer without the code, the account stays stuck.
 - A private profile isn't listed or searchable. Anything you published still shows your username.
@@ -36,10 +37,10 @@ A changed app could skip its own check, so that check is not the only one:
 Spaces you share live with invited people are not checked and the server can't read them: they are encrypted between you. A space or template you publish to the whole network is checked like anything else.
 
 ## What the server keeps
-Your username, shape, colour, bio, banners, what you published, your posts and votes. Addresses are never stored, only a keyed hash for rate limits, and that key is thrown away every day. Pictures lose their hidden data (like the place a photo was taken) before they are stored.
+Your username, creature, border shape, colour, bio, banners, what you published, your posts and votes. Addresses are never stored, only a keyed hash for rate limits, and that key is thrown away every day. Pictures lose their hidden data (like the place a photo was taken) before they are stored.
 
 ## Feedback
-The feedback board is public, with upvotes and up to three pictures on a post. Grok is banned here, so is talking about it.
+The feedback board is public, with upvotes and up to three pictures on a post. Grok is banned here, so is talking about it: a post about it gets a popup and goes nowhere.
 
 ## Settings
 Everything lives on the Lobster tab itself: your account, your profile, the live banner and what you installed. There is nothing to set up first, and Pinchy only talks to the network while you use the tab or have something installed from it.

@@ -45,7 +45,7 @@ For work where being right matters: a long, fact-checked research run that ends 
 - From an agent's side: open the agent's settings (Edit) → "Specialists watching him". Tick one for that agent only. One set to Every agent shows there as already on; change that in the Specialists window.
 
 ## A research krill
-- Agents → Workspace → New → Research. Write the question, pick how deep (Default uses your setting, or Quick, Standard, Deep), and start. Pinchy starts one for you when you ask for research in the chat, and so do agents, your phone and "/research" in a chat app.
+- Agents → Workspace → New krill → Research. Write the question, pick how deep (Default uses your setting, or Quick, Standard, Deep), and start. Pinchy starts one for you when you ask for research in the chat, and so do agents, your phone and "/research" in a chat app.
 - Attach files or a folder with the paperclip next to the question (or drop them on it). They are read as material for the question, never as instructions.
 - Before the searchers start, the plan shows as a card: the sub-questions Pinchy wants to look into. Change one, remove one or add your own, then press Start — or do nothing and it starts by itself after 20 seconds. The first change you make stops the clock. (Research an agent or a task starts goes straight on.)
 - While the searchers run you can still change direction: Drop next to a sub-question takes it out (its findings too), and the box at the bottom adds a new one — a searcher picks it up and nothing starts over. Once the search step is over, ask a follow-up instead.
