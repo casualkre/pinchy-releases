@@ -47,7 +47,7 @@ An away server is a second Pinchy without a screen, on a small machine that is a
 - This computer keeps ready copies of your away agents (renewed every 30 minutes). If your away server stops answering for 10 minutes, your agents move to a backup machine that answers, with their notes, and that machine becomes your away server. You get a notice.
 - "Move them by themselves" off: you get the notice and a "Move agents here" button instead. You can also move them on purpose any time.
 - When the old machine answers again, it stops working for you, its older copies of the moved agents are kept on this computer (nothing is lost) and removed there, and it becomes a backup machine.
-- While this computer is off it works too, once your cloud storage is shared with the away server (Cloud storage → Connection → "Your away server can use it too"): the machine in charge keeps a small note in your bucket up to date, a backup machine takes over only when that note went stale and the old machine does not answer, and a machine that can't update the note stops working first — so two machines never run your agents at once. Your phone reaches the new one after this computer is back; Telegram works at once.
+- Since 2.7.5 a backup machine takes over only while this computer is on: the takeover while it is off used a note in your Cloud storage bucket, and Cloud storage is gone. The machines themselves, and moving to one, work as before.
 - Without that, this computer has to be on for a move.
 - A brand-new machine has no copy of Pinchy's brain yet, so its Pinchy does not start and agents can't move there: the card says so. Make it your away server once (Change…), let it sync, then switch back — after that it is a ready backup machine.
 
@@ -73,7 +73,7 @@ An away server is a second Pinchy without a screen, on a small machine that is a
 - To turn it off, on the server: sudo pinchy-away root-setup --off
 
 ## Settings
-- Settings → Agents & automation → Away server (its own page since 2.6.1): at the top how it is right now (connected, which Pinchy it runs + Update, root approvals, its desktop, what it keeps, cloud storage and Telegram from the server), then the question (No / Yes) and "Runs on … · Change…"; under it What he may do there, Sync the brain every, Keep Pinchy there up to date.
+- Settings → Agents & automation → Away server (its own page since 2.6.1): at the top how it is right now (connected, which Pinchy it runs + Update, root approvals, its desktop, what it keeps and Telegram from the server), then the question (No / Yes) and "Runs on … · Change…"; under it What he may do there, Sync the brain every, Keep Pinchy there up to date.
 - Settings → Agents & automation → Telegram & chat apps: Keep answering while this PC is off.
 - Settings → Agents & automation → Phone: whether the phone reaches Pinchy away from home.
 

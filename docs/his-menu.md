@@ -10,7 +10,7 @@ Right-click Pinchy and his menu opens beside him — always beside him, however 
 
 ## What to ask for
 - "How do I put a clock in your menu?" He tells you where Customize is and what to add.
-- "Where did Cloud storage go in your menu?" He tells you it is one click away under "Add something…".
+- "Where did Cloud storage go in your menu?" Cloud storage is gone since 2.7.5; its tile opens Backups now.
 - "Can you rearrange your menu for me?" He cannot: the layout is yours alone. He tells you how to do it.
 
 ## What you can do there
@@ -27,7 +27,7 @@ Right-click Pinchy and his menu opens beside him — always beside him, however 
 
 ## What the menu can hold
 - The rows it starts with: Talk to me, Workspace (the tab in the Agents window), Agents, Specialists, Settings, Help, his behaviour, his tricks, Call a helper, Pause, Quit.
-- More rows: Help with selected text, Teach me, Spaces, Cloud storage, Pinchy's desk, Notifications, Swarms, Extensions, Pinchy's computer.
+- More rows: Help with selected text, Teach me, Spaces, Backups, Pinchy's desk, Notifications, Swarms, Extensions, Pinchy's computer.
 - A page of Settings in one click: Model & effort, Themes, Shortcuts, Memory, Telegram & chat apps, Phone, Hey Pinchy.
 - Things he does at once: check for updates, sync with the away server, open the memory folder.
 - One trick or one behaviour as its own tile: Backflip, Dance, Wander, Follow, Nap and the others.

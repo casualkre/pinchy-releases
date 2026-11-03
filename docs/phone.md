@@ -25,7 +25,7 @@ There are three ways. Any one is enough, and the Phone settings say in words whi
 - Pinchy's own link: "Reach Pinchy from anywhere" (on unless you switch it off). Pinchy opens a public address and the app talks to it by itself when no home address answers. Everything on it is sealed for this computer with keys only your phone and this computer have, so nobody in between can read or change it. No extra app on the phone. With an away server, the server opens its own link the same way, so the phone still reaches your agents there while this computer is off.
 - Tailscale: install it on the computer and the phone and sign in with the same account. The Phone settings show the steps.
 - An away server that can be reached from the internet. See the page "Away server".
-- Secrets never go through an away server: your admin password, what you type on your computer or on an agent's computer from the phone, and cloud storage keys go only to the computer itself — over a home address, Tailscale, or Pinchy's own link. When none of those answers, the app says so and sends nothing.
+- Secrets never go through an away server: your admin password, what you type on your computer or on an agent's computer from the phone, go only to the computer itself — over a home address, Tailscale, or Pinchy's own link. When none of those answers, the app says so and sends nothing.
 
 About the link:
 - It is on unless you switch it off. The first time, Pinchy downloads the small free tunnel program it uses (a checked, fixed version).
@@ -50,9 +50,8 @@ About the link:
 - When Claude is overloaded or busy, the chat on the phone says "Claude is overloaded — trying again (2/10)…" instead of a silent "Thinking…".
 - Stop in the phone chat ends his answer on the phone at once; what he wrote so far stays.
 
-## Cloud storage on the phone
-- Connect your cloud storage from the phone and its daily backups are on at once (you don't need to tap Done).
-- While a backup runs — started from the phone, by its schedule or on your computer — the phone shows its progress and a Stop button; one press stops it and nothing is uploaded.
+## Backups on the phone
+- The Home screen says when your last backup ran and whether it worked. Turning backups on or off, backing up now and restoring are done on your computer (Backups).
 
 ## Agents and jobs on the phone
 - The Agents tab is laid out like a messenger: search and + on top, a row of big portraits (who needs you, who is working, the ones you pinned), then one row per agent with his last line and unread count, newest first. Hold a row for quick actions (Pin, Profile, His computer, Do a round now, Pause, Stop, Details).
@@ -87,7 +86,7 @@ The app's own Settings start with what belongs to this phone, then your computer
   - Chat: "Enter sends" (off: Enter makes a new line), "Chat text size", "His little animations".
   - Files & data: "Save files to", "Ask before sending big files on mobile data", "Load his screen and pictures on mobile data", and the files kept on the phone with "Clear kept files".
   - Widgets, Connection, Privacy & lock, Look.
-- Your PC: Pinchy on your PC (his name, usage level, desk, cloud storage, the away server) and Add-ons.
+- Your PC: Pinchy on your PC (his name, usage level, desk, backups, the away server) and Add-ons.
 - More: Your Pinchys (switch PCs, pair another) and Help & about, with "Copy a diagnostics report" (versions and how the phone is connected; no keys and no full addresses) for when something is wrong.
 
 ## Home-screen widgets

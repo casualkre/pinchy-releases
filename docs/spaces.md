@@ -55,7 +55,7 @@ Spaces replaced Artifacts and Projects. Your old projects are spaces now with th
 - Settings → Agents & automation → Away server: spaces sync with your away server.
 
 ## Limits
-- One version of an item can be up to 8 MB, a picture or video up to 100 MB, a space up to 1 GB. Bigger files go in Cloud storage.
+- One version of an item can be up to 8 MB, a picture or video up to 100 MB, a space up to 1 GB. Bigger files stay as plain files on your computer.
 - A space holds up to 2000 items, 500 files and 1 GB of files, one file up to 100 MB. An item keeps its first version and its latest 199.
 - A code project's files stay on this computer. Sharing a space shares the main file, not the rest of the folder, and in a shared space what a program writes to that file reaches the others only when you save it yourself. On Windows there is no sandbox and no real terminal device: Pinchy asks before it opens one, and programs that draw the whole screen don't work. The Mac sandbox has not been run on a real Mac.
 - A web page runs in a sandbox: all its code inside it, no internet and no access to your files.

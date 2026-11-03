@@ -1,7 +1,7 @@
 ---
 title: "Notes and files"
 description: "Pinchy's chat bubble is small on purpose. Anything longer than a few sentences goes into a note on your desktop, anything visual or substantial becomes an item in a space (see the Spaces page), and any file — yours or one he made — shows as a card you can preview and download."
-keywords: "note, notes, sticky, copy, select text, preview, show picture, image, attach, attachment, attachments, file, files, folder, zip, pdf, upload, send a file, download, save as, drag, drop, paste, screenshot, video, sound, audio, open file, show in folder, save to cloud, file size, too big, preview window"
+keywords: "note, notes, sticky, copy, select text, preview, show picture, image, attach, attachment, attachments, file, files, folder, zip, pdf, upload, send a file, download, save as, drag, drop, paste, screenshot, video, sound, audio, open file, show in folder, file size, too big, preview window"
 permalink: /notes-and-files/
 ---
 # Notes and files
@@ -28,14 +28,13 @@ Pinchy's chat bubble is small on purpose. Anything longer than a few sentences g
   - text, notes, code and data files as text (pages and SVG pictures are shown as their text, never run),
   - folders and .zip files as a list; click a file in the list to preview it, and the back arrow returns to the list.
 - The Preview window's buttons: Download (Save As, to your Downloads folder by default; a folder downloads as one .zip), Open with app (the app your computer uses for that kind of file; for a folder: Open folder) and Show in folder. Inside a folder or zip, Download saves just that file, and Download all as zip saves everything.
-- Point at a card for its quick buttons: Preview, Download, Show in folder and Save to cloud.
-- Save to cloud puts the file (or the whole folder) into your cloud storage, if you have set one up.
+- Point at a card for its quick buttons: Preview, Download and Show in folder. (Save to cloud went with Cloud storage in 2.7.5; your files are in your Backups instead.)
 - From the phone app and from Telegram you can send files too; see the phone and Telegram pages.
 
 ## Settings
 - Settings → Pinchy → Notifications: how notes and results are shown.
 - Settings → Pinchy → Look & behaviour: how he behaves on your desktop.
-- Settings → Safety & data → Backup & move → Open Cloud storage: set up the storage that Save to cloud uses. You can drop files and folders on the Cloud storage window.
+- Settings → Safety & data → Backup & move → Open Backups: your backups in the Lobster Network account.
 
 ## Limits
 - Notes are for reading and copying. For a document you want to keep editing, ask for one: it lands in a space.
@@ -44,7 +43,6 @@ Pinchy's chat bubble is small on purpose. Anything longer than a few sentences g
 - Inside a folder or a zip, only pictures and text files can be previewed. Only .zip files can be looked inside (not .rar, .7z or .tar).
 - Word, Excel and PowerPoint files are not previewed inside Pinchy: use Open with app or Download.
 - Open with app opens a private copy of the file. Anything that could run a program (scripts, pages, apps, unknown kinds) is only shown in its folder; open it yourself if you trust it.
-- Save to cloud asks you to set up cloud storage first if you have none.
 
 ---
 
