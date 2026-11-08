@@ -12,15 +12,15 @@ The vault is where you keep your passwords, logins, cards, API keys and secret n
 - "What's in the vault?" He lists the names and sites, never a value.
 - "Sign in to Hetzner." He opens the site and asks to use the saved login. You press Approve in the vault's own window.
 - "Save my GitHub login." He opens the vault's window, and you type it there, never in the chat.
-- "Check my Hetzner servers with the API key." The vault makes the call itself, sends the key only to the saved site, and gives him the answer with the key taken out.
+- "Check my Hetzner servers with the API key." The vault makes the call itself, sends the key only to the address you approved, and gives him the answer with the key taken out.
 
 ## How it works
 - A separate program: the vault runs on its own, apart from Pinchy. Pinchy can only ask it to do something. There is no way to ask it for a value.
 - Two locks: opening the vault takes your passphrase and your system keyring together (KWallet or GNOME Keyring, Windows, macOS Keychain). One without the other opens nothing. With no keyring it runs on the passphrase alone, and the vault says so.
 - Its own window: the passphrase, every value and every Approve go through a small window that belongs to the vault, not to Pinchy. Pinchy's own windows only show names.
 - Auto lock: it locks after 15 minutes without use (you can change that), when your screen locks, when the computer sleeps and when Pinchy quits.
-- Approve: every use asks you. You see who asks, for which item and on which site. Full autonomy doesn't skip this. A card, or an item you mark, also asks for your passphrase or your phone's fingerprint, because a plain button could be pressed by an agent that controls your mouse.
-- Fills stay on the saved site: a value only goes to the exact site it was saved for, into the right kind of field. While a secret is on a page he can't read that page, take a screenshot of it or run code in it, until a new page loads or he clears it.
+- Approve: every use asks you. The card lists what (the login, card or key), what it is used for (in the asker's words), every site that gets it, and who asks. Full autonomy doesn't skip this. A card, or an item you mark, also asks for your passphrase or your phone's fingerprint, because a plain button could be pressed by an agent that controls your mouse.
+- No site lock (2.8): an item can be used on any https site or API, but only after you approve that exact site. If it is not the site the item was saved for (or it has none), the card says so in red and needs your passphrase or your phone's fingerprint. A value only goes into the right kind of field. While a secret is on a page he can't read that page, take a screenshot of it or run code in it, until a new page loads or he clears it.
 - API keys: he can't put a key in a command, because he never has it. The vault sends it in the one header you saved for it. It follows no redirects.
 - Your phone: Approve works with your fingerprint in the Pinchy app, once you add the phone in the vault's window. Cards stay PC only unless you turn that on. The vault must be unlocked on your PC.
 - Agents on the away server: off for each item until you turn it on. Each use needs your Approve, the value is sent encrypted for that one fill, and it is wiped after. Your PC has to be on, since the vault stays on it.
@@ -38,7 +38,7 @@ If you have plain files in Pinchy's secrets folder, the vault offers to import t
 - On Windows a program running as you could read the vault's memory while it is unlocked, so keep the auto lock short. On Linux the vault's own process is closed to other programs, but the window's page, where you type, relies on a kernel setting (`ptrace_scope`). The window warns you when that setting leaves it open.
 - On Linux without Wayland (an X11 session), any program of yours can listen to what you type into the vault window and read what it shows. On Wayland it can't: the window runs natively there. Windows and macOS keep the window out of screen captures; Linux can't.
 - A program running as you could draw a window that looks like the vault's. Only type your passphrase when you opened the vault yourself or Pinchy just asked for a saved login.
-- An agent that controls your screen can press a plain Approve. It gets a sign-in on the saved site, never the value. Cards, and items set to ask for your passphrase, need the passphrase or your phone.
+- An agent that controls your screen can press a plain Approve. It gets a sign-in on the saved site, never the value; anywhere else needs your passphrase. Cards, and items set to ask for your passphrase, need the passphrase or your phone.
 - A site you saved sees what you fill in, as with any password manager.
 - Copying an old vault file back undoes later changes to it, like a deleted item or a limit. That needs no passphrase. Change the password of something you deleted because it leaked.
 - On the away server a value exists in memory for a moment during the fill.

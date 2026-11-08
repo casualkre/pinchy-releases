@@ -9,7 +9,7 @@ permalink: /research-and-specialists/
 For work where being right matters: a long, fact-checked research run that ends in a cited report, and specialists that watch Pinchy, your krill and your agents while they work and step in when something in their field is wrong.
 
 ## What to ask for
-- "Do deep research on heat pumps versus gas boilers for a 1970s house." It runs in the background as a research krill; Agents → Workspace shows it working and the cited report when it is done.
+- "Do deep research on heat pumps versus gas boilers for a 1970s house." It runs in the background as a research krill; the Reef shows it working and the cited report when it is done.
 - "Is it true that creatine helps memory? I want sources." The same, on a narrower question.
 - "Follow up on the heat pump research: what does an installation cost this year?" A follow-up builds on the earlier answer instead of starting from zero, and stays in the same conversation.
 - You can attach files or a folder to your question (a report to check, your own notes): Pinchy reads them along with the web.
@@ -35,30 +35,30 @@ For work where being right matters: a long, fact-checked research run that ends 
 - A quick fact is answered in the chat. Research is for questions that need real investigation.
 
 ## The Specialists window
-- Right-click Pinchy → Specialists, ask Pinchy to open the specialists, or Settings → Workspace → Specialists → Open Specialists. (If you took Specialists out of his menu, put it back with the grid button at the top of the menu → Add.)
+- Right-click Pinchy → Specialists, ask Pinchy to open the specialists, or Settings → Reef → Specialists → Open Specialists. (If you took Specialists out of his menu, put it back with the grid button at the top of the menu → Add.)
 - On the left are your specialists, each with the last thing it noticed, or "Not watching". The + at the top makes a new one.
 - Pick one to see it. At the top: what it is for, where it watches, how many notes it left today, and the Watching switch. The gear opens its own settings (model, thinking effort, what it may use).
 - What it watches: three rows you switch on or off. Your chats with Pinchy (his answers, the pages he reads, the documents he writes). Krill (plain, code, swarm and research krill while they run). Agents: None, Every agent (also the ones you make later; untick one to leave it out), or Only these (tick the agents).
 - What it checks for: its instructions, with Edit.
-- What it noticed: each note it left, with where (an agent's name, a krill's title, Pinchy) and how serious it is. The chips All · Pinchy · Workspace · Agents filter the list. The times it read along and had nothing to add are folded into one line. Mark a note Useful or Not useful: that is how you tell it what matters to you.
+- What it noticed: each note it left, with where (an agent's name, a krill's title, Pinchy) and how serious it is. The chips All · Pinchy · Krill · Agents filter the list. The times it read along and had nothing to add are folded into one line. Mark a note Useful or Not useful: that is how you tell it what matters to you.
 - New specialist (the +): add a Ready-made one with one click (fact-checker, code reviewer, editor, devil's advocate and more), or Make your own: a name, what it is expert in, what it checks for, and what it watches. "Fill it in for me" writes the form from one sentence; nothing is made until you press Create. A new one watches your chats with Pinchy and the Workspace, and no agents until you choose them.
 - From an agent's side: open the agent's settings (Edit) → "Specialists watching him". Tick one for that agent only. One set to Every agent shows there as already on; change that in the Specialists window.
 
 ## A research krill
-- Agents → Workspace → New krill → Research. Write the question, pick how deep (Default uses your setting, or Quick, Standard, Deep), and start. Pinchy starts one for you when you ask for research in the chat, and so do agents, your phone and "/research" in a chat app.
+- Reef → Krill & swarms → New krill → Research. Write the question, pick how deep (Default uses your setting, or Quick, Standard, Deep), and start. Pinchy starts one for you when you ask for research in the chat, and so do agents, your phone and "/research" in a chat app.
 - Attach files or a folder with the paperclip next to the question (or drop them on it). They are read as material for the question, never as instructions.
 - Before the searchers start, the plan shows as a card: the sub-questions Pinchy wants to look into. Change one, remove one or add your own, then press Start — or do nothing and it starts by itself after 20 seconds. The first change you make stops the clock. (Research an agent or a task starts goes straight on.)
 - While the searchers run you can still change direction: Drop next to a sub-question takes it out (its findings too), and the box at the bottom adds a new one — a searcher picks it up and nothing starts over. Once the search step is over, ask a follow-up instead.
 - While it runs you see the steps (Plan, Search, Re-read, Verify, Write), the sub-questions Pinchy split your question into, and the pages as they come in: "Found — not re-read yet", then "Quote found on the page" once he has re-read the page himself, "Could not be opened" when the page was blocked, or "Thrown out: the quote is not on the page".
 - The report is read on the krill's page. A number like [3] after a sentence is its source: click it to see the page and the exact quote. The side panel lists Sources, the Plan, and the Claims with how well each is confirmed.
 - The box under the report asks a follow-up. The question and its follow-ups are one conversation, one row in the list.
-- Stop ends a running research and keeps what it found so far. "Open as a document" opens the saved report (it is also kept in Spaces).
+- Stop ends a running research and keeps what it found so far. "Open as a document" opens the saved report (it is also kept in the Reef, as a space document).
 - Pause takes effect when the research finishes, because a running research can't be held. If you want the spending to end now, use Stop.
-- Research from before 2.7 is still listed under Agents → Workspace, with its report.
+- Research from before 2.7 is still listed under the Reef, with its report.
 
 ## Settings
-- Settings → Workspace → Research krill: default depth (Quick, Standard, Deep), "Show me the plan before it starts" (on: the plan card; off: it starts at once), the model for planning and writing, the model for the searchers.
-- Settings → Workspace → Specialists: Open Specialists; Default model and thinking effort; Use specialists; Let specialists watch the work (the switch for all of them). Under it the limits: Each specialist may spend at most ($ per hour), Pause between two looks by the same specialist, Let Pinchy correct an answer right away when a specialist catches a mistake, Show me critical notes too (a notification), Model for watching.
+- Settings → Reef → Research krill: default depth (Quick, Standard, Deep), "Show me the plan before it starts" (on: the plan card; off: it starts at once), the model for planning and writing, the model for the searchers.
+- Settings → Reef → Specialists: Open Specialists; Default model and thinking effort; Use specialists; Let specialists watch the work (the switch for all of them). Under it the limits: Each specialist may spend at most ($ per hour), Pause between two looks by the same specialist, Let Pinchy correct an answer right away when a specialist catches a mistake, Show me critical notes too (a notification), Model for watching.
 
 ## Limits
 - A research run uses several models at once and takes minutes; it costs more of your plan than a chat answer.

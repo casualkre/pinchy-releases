@@ -25,7 +25,7 @@ An away server is a second Pinchy without a screen, on a small machine that is a
 
 ## What waits for your computer
 - Anything that needs this computer's screen, mouse, files or apps.
-- Your wallet and your passwords never go to the server.
+- Your passwords never go to the server.
 - Voice notes: speech is turned into text on your computer.
 
 ## Setting it up
@@ -40,7 +40,7 @@ An away server is a second Pinchy without a screen, on a small machine that is a
 - "Another machine" runs the same short setup and moves your agents there, with their notebooks. "Only this computer" brings them back here; they then work only while this computer is on.
 - While you set up the new machine your agents wait on this computer. Nothing runs twice, and nothing is deleted on this computer.
 - At the end you choose what happens to the old machine: "Clean it" (everything of Pinchy's is deleted from it; you get one line to remove the program itself) or "Leave it as it is" (he stops working there, its copy of his memory stays on its disk).
-- An agent that comes back to this computer loses the powers only you can give (working without asking, the wallet); the card names them.
+- An agent that comes back to this computer loses the powers only you can give (working without asking); the card names them.
 
 ## Backup machines
 - Settings → Agents & automation → Away server, the "Backup machines" card: add a second machine (a home box, a spare laptop or another cloud server, set up the same way) with its address and pairing token.

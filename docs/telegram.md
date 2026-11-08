@@ -48,12 +48,12 @@ Pinchy can live in a Telegram chat. You write to your own bot, Pinchy answers th
 - "/code <what you want>" starts a code krill in the project you used last. "/code in ~/projects/site: <what you want>" names the folder. The first message says which folder it works in.
 - "/krill <what you want>" (or "/work") starts a plain krill: a document, a table, a write-up. "/research <question>" starts a research krill.
 - While a krill works, its first message shows the step it is on.
-- A small krill just starts. A bigger one shows its plan first when you asked for that (Settings → Workspace → All krill, "Plan first and wait for my OK"): the plan with Start and Cancel. Reply to the message to say what to change.
+- A small krill just starts. A bigger one shows its plan first when you asked for that (Settings → Reef → All krill, "Plan first and wait for my OK"): the plan with Start and Cancel. Reply to the message to say what to change.
 - When one of its commands needs your OK, the chat shows the command and what it is for, with Approve and Deny.
 - When it needs something else from you, the message says what. Reply to answer.
 - A finished code krill says what it changed, with Apply, Keep as a branch and Discard. Nothing is in your folder until you tap Apply. A finished plain krill has a button that sends you its file.
 - A reply to any message of a krill talks to that krill: it steers it while it works and goes on with it after it is done.
-- "/jobs" lists your krill. One you start here also shows in Agents → Workspace on your computer.
+- "/jobs" lists your krill. One you start here also shows in the Reef on your computer.
 
 ## Approving from the chat
 - Every request says what it is and why. For an admin (sudo) command that is the computer, the exact command and the folder.

@@ -100,8 +100,8 @@ Each agent has a profile in the Agents window: its name, its description and the
 - Settings → Agents & automation → Heartbeat: the list he keeps an eye on, how often it is checked, how often the big model may be woken.
 - Settings → Agents & automation → Variables: live values agents can react to without using your plan.
 - Settings → Agents & automation → Telegram & chat apps and Settings → Agents & automation → Phone: reach and answer your agents away from the desk.
-- Settings → Workspace → Specialists: the watchers that read along.
-- Per agent, in its form in the Agents window: its description, what it may use (its own computer, your screen, mouse and keyboard, browser, wallet …), how free it is, and its specialists.
+- Settings → Reef → Specialists: the watchers that read along.
+- Per agent, in its form in the Agents window: its description, what it may use (its own computer, your screen, mouse and keyboard, browser …), how free it is, and its specialists.
 
 ## Limits
 - Every scheduled run is a Claude round and uses your plan. A run every minute uses it fast; wake-ups are checked without Claude.

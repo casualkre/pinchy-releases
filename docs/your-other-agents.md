@@ -27,7 +27,7 @@ If you run coding agents yourself in your terminals, Pinchy can look after them:
 - **"Always allow"** is offered for a run of code or tests: it covers that one tool, in that one project, for that exact command only. `npm test` never covers `npm test; curl …`. The window says what it will cover before you press it. Your remembered answers are listed under **Remembered permissions** in Settings → Safety & data → Safety.
 - **They can talk to each other.** A managed agent learns its own id and who else is open, and can write to another one with the small `pinchy-say` command Pinchy gives it. The message reaches the other agent between its steps, or when it stops; it can answer the same way. One agent can send at most 30 messages an hour, and an idle agent in a herdr pane is woken at most once a minute. Messages from you or from Pinchy are never limited.
 - **Connect.** For each tool Pinchy adds a small hook to that tool's own settings, so he hears from it and can answer it. Disconnect takes out only his part and leaves your own hooks alone. While Pinchy is closed, every tool works exactly as it does without him.
-- **Pinchy's own sessions** (his chat, his agents, Workspace jobs, swarms) are never listed here, not even one of his conversations you reopen in a terminal; this is only about the agents you run yourself.
+- **Pinchy's own sessions** (his chat, his agents, krill, swarms) are never listed here, not even one of his conversations you reopen in a terminal; this is only about the agents you run yourself.
 
 ## Settings
 Settings → Agents & automation → Your other agents:

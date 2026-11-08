@@ -26,7 +26,7 @@ Right-click Pinchy and his menu opens beside him — always beside him, however 
 - Undo (Ctrl+Z), Cancel (Esc), Done. Nothing is saved until Done.
 
 ## What the menu can hold
-- The rows it starts with: Talk to me, Workspace (the tab in the Agents window), Agents, Specialists, Settings, Help, his behaviour, his tricks, Call a helper, Pause, Quit.
+- The rows it starts with: Talk to me, Reef (your spaces, and the krill and swarms working in them), Agents, Specialists, Settings, Help, his behaviour, his tricks, Call a helper, Pause, Quit.
 - More rows: Help with selected text, Teach me, Spaces, Backups, Pinchy's desk, Notifications, Swarms, Extensions, Pinchy's computer.
 - A page of Settings in one click: Model & effort, Themes, Shortcuts, Memory, Telegram & chat apps, Phone, Hey Pinchy.
 - Things he does at once: check for updates, sync with the away server, open the memory folder.
@@ -35,11 +35,11 @@ Right-click Pinchy and his menu opens beside him — always beside him, however 
   - Time: a clock, a timer (one click starts it, Pinchy tells you when it is done), a stopwatch, this month, a world clock, a countdown to a day.
   - Pinchy: what he is doing, your agents at a glance, the last notification, your away server, the tricks he has learned, plan usage.
   - This computer: battery, online or offline, CPU and memory, disk space.
-  - Asks & work: "Ask Pinchy…" (type and press Enter: it goes to his chat as your message), "Say to Pinchy" (a sentence you saved, one click), a note to yourself, a switch for a setting, the next agent wake-up, the last Workspace job, what your agents used today, the weather for your city.
+  - Asks & work: "Ask Pinchy…" (type and press Enter: it goes to his chat as your message), "Say to Pinchy" (a sentence you saved, one click), a note to yourself, a switch for a setting, the next agent wake-up, the last krill job, what your agents used today, the weather for your city.
 - Lines and headings to keep groups apart.
 
 ## How it works
-- Rows for things you switched on (What Pinchy did, Focus, Explain part of the screen, Pinchy's desk) only show while that thing is on. A row that does not show leaves no gap.
+- Rows for things you switched on (Focus, Explain part of the screen, Pinchy's desk) only show while that thing is on. A row that does not show leaves no gap.
 - What an extension adds to the menu appears in the "Extension entries" place.
 - The bell and the usage bars sit at the top of the menu. Put Notifications or the usage widget into the grid and they move there.
 - A helper Pinchy has the same menu, without the rows that belong to Pinchy himself.

@@ -1,7 +1,7 @@
 ---
 title: "Phone: Pinchy in your pocket"
 description: "The Android app talks to the Pinchy on your computer. You chat with him, follow your agents, runs and swarms, answer his questions and allow or refuse what he wants to do, with notifications. At home it uses your Wi-Fi. Away from home it needs one way in, and Pinchy has his own: an encrypted link yo"
-keywords: "phone, android app, mobile, notifications follow me, which device, approval on my phone, approve from the notification, review, 10 minutes, continue on the phone, still working, stop in the phone chat, overloaded, trying again, pair, pairing, phone settings, widget, widgets, home screen widget, quick bar, needs you widget, attach file from phone, send photo to agent, send a folder, download a file to my phone, mark done, dismiss, needs you on the phone, root on the phone, root command, allow root, mute an agent, lock screen, enter sends, text size, open on, haptics, diagnostics, agents on the phone, agent profile, his computer on the phone, take control, control my computer from the phone, control my pc, remote control, teach from the phone, show him how, waiting to send, offline messages, message didn't send, agents slow to load, qr code, away from home, outside, mobile data, not connecting, can't connect, cannot reach, reconnect, tailscale, vpn, link, tunnel, cloudflare, fingerprint, approve on phone, sudo on phone, admin password, payment on phone, see my screen, notifications, lost phone, unpair, answer an agent on the phone, question from an agent, keep talking to a finished job, continue a run from the phone, creature on the phone, shrimp, lower autonomy from the phone"
+keywords: "phone, android app, reef on my phone, edit on my phone, aquarium on my phone, video from my phone, video clip, liquid glass phone, mobile, notifications follow me, which device, approval on my phone, approve from the notification, review, 10 minutes, continue on the phone, still working, stop in the phone chat, overloaded, trying again, pair, pairing, phone settings, widget, widgets, home screen widget, quick bar, needs you widget, attach file from phone, send photo to agent, send a folder, download a file to my phone, mark done, dismiss, needs you on the phone, root on the phone, root command, allow root, mute an agent, lock screen, enter sends, text size, open on, haptics, diagnostics, agents on the phone, agent profile, his computer on the phone, take control, control my computer from the phone, control my pc, remote control, teach from the phone, show him how, waiting to send, offline messages, message didn't send, agents slow to load, qr code, away from home, outside, mobile data, not connecting, can't connect, cannot reach, reconnect, tailscale, vpn, link, tunnel, cloudflare, fingerprint, approve on phone, sudo on phone, admin password, payment on phone, see my screen, notifications, lost phone, unpair, answer an agent on the phone, question from an agent, keep talking to a finished job, continue a run from the phone, creature on the phone, shrimp, lower autonomy from the phone"
 permalink: /phone/
 ---
 # Phone: Pinchy in your pocket
@@ -68,6 +68,16 @@ About the link:
 - If you change the machine that keeps Pinchy working while your computer is off, the phone follows by itself the next time it reaches your computer.
 
 
+## The Reef on the phone (2.8)
+- The Reef has its own tab (the coral icon): Spaces, Krill & swarms and the Aquarium. The Agents tab is just your agents.
+- Open any space and its items show as cards with a real picture of each one. Documents, sheets, charts and slides open to edit right on the phone: in a document change, move, add or take out any part (a heading, a list, a quote); in a sheet tap a cell (formulas are worked out, as on your computer), sort, add or remove rows and columns; in a chart change a number or a label; in slides change the words on any slide or add one. What you change is yours (signed as you), and a change made on your computer meanwhile shows up by itself.
+- Every item has a Krill button: say what to do ("fix all spelling mistakes", "make it shorter") and a krill changes that item in place and checks its change. Videos, pages, code and CAD show a preview and a Krill button; you edit those on your computer.
+- Make new ones from the phone: + Document, + Sheet, + Slides, + Chart, or "Ask a krill to make it".
+- + Video clip sends a video from your phone into the space (mp4, mov, webm, mkv, 3gp). Open it in the video editor on your computer, or tap Krill ("cut it down to the best 30 seconds"). Motion items are called Video.
+- The Aquarium shows your agents and krill as the same 3D creatures as on your computer, at work and passing notes; tap one to open it. Hear it plays a note or a reply in that one's own voice.
+- Calls: Pinchy, an agent or a krill can ring the app and talk with you; you can ring them too (Call Pinchy on Home, Call on an agent). See the Calls page.
+- With the Liquid Glass style the app's cards, sheets, settings boxes and Pinchy's chat bubbles are see-through glass in your own colours. The phone shows the glass look; the bending lens is on your computer.
+
 ## Files and photos
 - The + next to the message box attaches things: "Photos and videos", "Files" (PDF, zip, documents, anything) or "A folder" (sent as one .zip). Any file up to 2 GB. It works in an agent's chat, in Pinchy's own chat and when you start a new job.
 - A big file over mobile data asks first (you can switch that off, see Settings below).
@@ -107,6 +117,8 @@ The app's own Settings start with what belongs to this phone, then your computer
 
 ## Limits
 - Android only.
+- A video you send from the phone can be at most as big as one file a space may hold; a bigger one is refused with a message.
+- Phones on the 2.7 app keep working but don't show the Reef tab, the editors or calls: update the app.
 - Your computer must be on (or an away server must be running) for the phone to reach anything.
 - The live picture of your screen is off until you switch on "Let the phone see my screen"; controlling it is off until you switch on "Let my phone control this computer".
 - Through an away server, one answer is capped at 5 MB (a full-size picture of your screen, for example). Files go up and come down in pieces, so they are not cut off.

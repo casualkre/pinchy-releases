@@ -6,7 +6,7 @@ permalink: /code-review/
 ---
 # Code review: find what is wrong in a project
 
-Code review reads a project for real problems (crashes, wrong results, lost data, security holes), runs the project's own checks, tries the app itself on Pinchy's own desk, and shows you what he found. You decide what gets fixed: he only shows, lets you pick, or fixes the sure ones on a branch of their own. It has its own window, separate from the Workspace.
+Code review reads a project for real problems (crashes, wrong results, lost data, security holes), runs the project's own checks, tries the app itself on Pinchy's own desk, and shows you what he found. You decide what gets fixed: he only shows, lets you pick, or fixes the sure ones on a branch of their own. It has its own window, separate from the Reef.
 
 ## What to ask for
 - "Review my notes app for bugs." He opens a review of that folder.
@@ -58,7 +58,7 @@ Code review reads a project for real problems (crashes, wrong results, lost data
 - No code, only the app: a folder without source code where you gave the app itself (a website or a program file) is a review of the app alone — he tries it on his desk and what he sees are the findings.
 
 ## Settings
-- The model that does the review is the one for Code krill: Settings → Workspace → Code krill.
+- The model that does the review is the one for Code krill: Settings → Reef → Code krill.
 - Trying the app needs Pinchy's own desk: Settings → Computer → Pinchy's own desk. When it is off or cannot run on this computer, the review says so and reviews the code only.
 
 ---

@@ -22,14 +22,14 @@ Pinchy is a little lobster on your desktop who gets real things done with Claude
 ## Which one for what
 - The chat: one thing, now. A question, a file, a small change, something on a website. Click him, or use your shortcut, and say it in your own words.
 - Krill: workers that do one job from start to finish, with every tool Pinchy has, while the chat stays free. A plain krill makes documents, tables, slides and tidy folders; a code krill changes a project; a research krill writes a cited report. See the Krill page.
-- Spaces: where what Pinchy, your agents and you make lives. Documents, slides, charts and web pages you can edit like a document, and share. See the Spaces page.
+- The Reef: where what Pinchy, your agents, krill and you make lives, and where you watch them work (the aquarium). Documents, slides, sheets, charts, web pages, code, CAD and videos you can edit by hand, and share. See the Reef page.
 - An agent: a job that repeats or keeps going for days. He runs at set times or when something happens, checks his own result, and reaches you by notification, phone or Telegram. He asks only when a decision is yours.
 - A swarm: one job too big for one Pinchy. A crew works on it at the same time from a shared board: each one takes the next useful piece, hands it on when it is done, and teammates check each other's parts; you get one result. You set the crew size and a cost cap; from the chat he can show you the crew and the cap first and waits for your go.
 - Code Review: a whole project checked for bugs, with the app tried on his own desk. It has its own window: Code review in the tray menu opens it (you can also put it on his right-click menu with Customize).
 - Away from the computer: the phone app and Telegram show what he is doing and let you answer his questions. With an away server he keeps going while this computer is off.
 
 ## How to start
-- Let him show you around. In the middle of the first-run setup, "Let Pinchy show you around" starts a short walk over your real desktop: he opens his chat, his right-click menu, Spaces, the Agents window with its Workspace tab, Code Review, Specialists and Settings, points at each with his claw and says how to use it. A small card has Back, Next and Skip (Esc ends it). On the chat, "Try it" puts an example in the real box for you to send or change; it never sends it by itself. Windows you already had open stay open. Take the tour again any time: in Settings → Home, press Show me around.
+- Let him show you around. In the middle of the first-run setup, "Let Pinchy show you around" starts a short walk over your real desktop: he opens his chat, his right-click menu, the Agents window, the Reef with its krill and spaces, Code Review, Specialists and Settings, points at each with his claw and says how to use it. A small card has Back, Next and Skip (Esc ends it). On the chat, "Try it" puts an example in the real box for you to send or change; it never sends it by itself. Windows you already had open stay open. Take the tour again any time: in Settings → Home, press Show me around.
 - Coming from an older version, the setup offers one short look first: "New in Pinchy 2.6", with only what your copy really has, then the tour.
 - Just ask. You do not have to pick a mode: for a real job he suggests Work, Code, an agent or a swarm himself and says why.
 - The start pages show examples. In the Agents window they are cards (what you get, how he works, what he needs from you); a card fills in the form. Nothing starts until you send it or press Start.
@@ -45,12 +45,13 @@ Pinchy is a little lobster on your desktop who gets real things done with Claude
 ## Settings
 You do not have to open Settings for most things: tell Pinchy. "Turn the claw sounds off", "go dark", "enable the Night Skin extension", "switch the GitHub connector off", "install this skill: (a GitHub link)". He does it and says in one sentence what he changed and what it was before. "What did you change?" lists it, "undo that" puts it back.
 - When your message names the thing, that is your yes and he does not ask again. When the idea came from somewhere else (a web page, a file, another agent), he asks you first, and an extension from outside Pinchy's library that runs its own code always shows you what it may do before it goes on.
-- A few switches are yours alone: pausing and resuming, the Experimental page, updates and the wallet. The settings that decide whether he asks you (permission modes, approvals, spending limits) change only when you name them yourself, or in Settings.
+- A few switches are yours alone: pausing and resuming, the Experimental page and updates. The settings that decide whether he asks you (permission modes, approvals, spending limits) change only when you name them yourself, or in Settings.
+- No pocket money any more (2.8): Pinchy and his agents can't pay for anything. If an older version had a wallet with crypto in it, in Settings → Wallet → Old wallet, you send it to an address of yours or see its recovery words.
 - Settings → Home: the quick links — Show me around (the tour again), What's new, and running the whole setup again.
 - Settings → Agents & automation → Agents: how agents run on this computer.
 - Settings → Agents & automation → Away server: the machine that keeps them working while this computer is off — status, updates, root approvals.
-- Settings → Workspace → Swarms: "How a crew works" (as a hive, the default, or with a plan first), crew size, "Show me the plan before a swarm I start gets to work", which finished parts a teammate looks at.
-- Settings → Workspace → Plain krill and Settings → Workspace → Code krill: how runs plan, check and hand over.
+- Settings → Reef → Swarms: "How a crew works" (as a hive, the default, or with a plan first), crew size, "Show me the plan before a swarm I start gets to work", which finished parts a teammate looks at.
+- Settings → Reef → Plain krill and Settings → Reef → Code krill: how runs plan, check and hand over.
 - Settings → Brain → Chat: which model he thinks with and how much of your plan he uses.
 - Settings → Add-ons → Connectors: your apps, the easy connectors (Composio, Zapier) at the top.
 

@@ -1,26 +1,47 @@
 ---
-title: "Spaces: where things get made"
-description: "A space keeps one piece of work together: how it should be done, the files it needs, and everything made in it. Documents, sheets, slides, charts, drawings and web pages live there as items. Every item stays yours to edit like a document, Pinchy and krill can change it too, and every version is kept"
-keywords: "space, spaces, project, projects, artifact, artifacts, document, doc, report, sheet, spreadsheet, slides, deck, presentation, present, presenter, animation, transition, morph, theme, master, slide number, layers, group, align, crop, brightness, resize, chart, graph, drawing, svg, poster, web page, page, mini app, template, export, docx, pptx, xlsx, pdf, versions, edit, instructions, knowledge, notes, share, my space"
+title: "The Reef: where things get made"
+description: "The Reef is one window for everything being made: your spaces, and the krill and swarms working in them. It took over from Spaces and from the Workspace tab that used to be in the Agents window."
+keywords: "reef, aquarium, workspace, krill list, space, spaces, project, projects, artifact, artifacts, document, doc, report, sheet, spreadsheet, slides, deck, presentation, present, presenter, animation, transition, morph, theme, master, slide number, layers, group, align, crop, brightness, resize, chart, graph, drawing, svg, poster, web page, page, mini app, template, export, docx, pptx, xlsx, pdf, versions, edit, instructions, knowledge, notes, share, my space"
 permalink: /spaces/
 ---
-# Spaces: where things get made
+# The Reef: where things get made
+
+The Reef is one window for everything being made: your spaces, and the krill and swarms working in them. It took over from Spaces and from the Workspace tab that used to be in the Agents window.
+
+## Around the Reef
+- Open it from the right-click menu (Reef), the chat's coral button, or the tray. It opens where you left it.
+- The list on the left has everything: **Aquarium** (watch Pinchy, your agents and your krill at work), **Make something** (describe it and a krill makes it), **Krill & swarms**, your spaces, and the krill working right now. What needs you comes first, then what is working, then the newest finished ones. A sub-krill sits under the krill that started it.
+- Click a krill and its job fills the right side: you can watch it, steer it or stop it. The + beside Krill & swarms starts a new one; Loops is at the bottom of the list.
+- A space with a dot beside it has krill working in it (amber: one needs you).
+- Drag an item out of the list or a space's page onto a creature in the aquarium to hand it that job.
+
+## The aquarium
+- Press **Aquarium** in the Reef's list. Pinchy, your agents, your krill and your swarms are in one 3D tank, each as its own creature.
+  Krill swim round whoever started them, a swarm's krill school round the swarm, agents on your away server swim at the back.
+- What a creature does shows in its body (reading, typing, thinking, asleep). One that needs you comes to the front glass with a "!";
+  one that is talking holds the Humotranslator; one that just wrote something shows a ✓.
+- Little notes fly between them when they talk or hand over work; notes for you float up to the surface. The last few are at the top left
+  (click one to open who sent it).
+- Click a creature for **Open · Ask krill · Talk**. Drag an item from the list onto a creature to hand it over.
+- Drag the water to look around, scroll to get closer, double-click (or **Reset view**) to go back. On the phone: drag, pinch, tap.
+
+## Spaces
 
 A space keeps one piece of work together: how it should be done, the files it needs, and everything made in it. Documents, sheets, slides, charts, drawings and web pages live there as items. Every item stays yours to edit like a document, Pinchy and krill can change it too, and every version is kept.
 
 Spaces replaced Artifacts and Projects. Your old projects are spaces now with their files and notes, your old artifacts are items in My space, and a copy of both was backed up before they moved.
 
 ## What to ask for
-- "Make a report on our Q3 numbers." A document item opens in Spaces.
+- "Make a report on our Q3 numbers." A document item opens in the Reef.
 - "Turn that into a 10 slide deck." Slides you can move around, present and export.
 - "Make me a small page with a five-minute timer." A web page item that runs right there.
-- "Make a 10 second video that says we are open on Sunday." A Motion item you can change on a timeline, and an mp4.
+- "Make a 10 second video that says we are open on Sunday." A Video item you can change on a timeline, and an mp4.
 - "Make a space for my tax return." A space. Add its instructions and files, and everything done in it reads them.
 - "Change the second slide's title to Friday." He changes that block and leaves the rest alone.
 - "Export the deck as PowerPoint." A .pptx file.
 
 ## How it works
-- Open Spaces from the right-click menu. The start page asks what you are making: describe it and a krill makes it in a space, start blank, or start from a template.
+- Open the Reef and press Make something. The start page asks what you are making: describe it and a krill makes it in a space, start blank, or start from a template.
 - My space is where anything without a space lands.
 - A space's page shows what was made there, what is working there now, its instructions, its knowledge files and its notes. Everything done in the space reads the instructions, files and notes.
 - Click an item to edit it. Documents work like a word processor, sheets like a spreadsheet with formulas, slides and drawings by dragging things around. Web pages and code are source you can type in; a page runs beside its source. Pictures have their own editor.
@@ -28,8 +49,12 @@ Spaces replaced Artifacts and Projects. Your old projects are spaces now with th
 - Present shows the deck, a click at a time. Presenter also shows the next slide, your notes and a timer, in one window. Escape ends both.
 - Comment on a slide: press Comment, then click the place or the thing. A pin stays there, and on a thing it follows the thing. Right click gives Comment here too. Pins never show in a presentation or an export.
 - Morph moves charts too: bars grow, slices turn and lines bend to the next slide's numbers, on a scale that moves with them. Two different kinds of chart cross-fade.
-- Motion makes a video. Add text, shapes, pictures and charts, then go to a later time on the ruler and drag a layer: with Record on it travels there. Every layer has a bar on the timeline: drag it, or its ends, to set when it is on screen. Diamonds are keys: drag one to retime it, click one to set how it eases. Add a move has Fade, Slide, Rise, Pop and more. Space plays, `,` and `.` step a frame, K adds a key. A video can be wide, tall, square or 4K, at up to 60 frames a second and up to 10 minutes.
-- Export gives a Motion item as mp4 or webm, every frame exact whatever the speed of your computer, or a png of one frame. Nothing to install. There is no sound yet. Ask makes or changes one too: "Make a 10 second intro with our logo sliding in."
+- A Video item is a video you build. Add text, shapes, pictures and charts, then go to a later time on the ruler and drag a layer: with Record on it travels there. Every layer has a bar on the timeline: drag it, or its ends, to set when it is on screen. Diamonds are keys: drag one to retime it, click one to set how it eases. Add a move has Fade, Slide, Rise, Pop and more. Space plays, `,` and `.` step a frame, K adds a key. A video can be wide, tall, square or 4K, at up to 60 frames a second and up to 10 minutes.
+- Your own footage: Video clip in a Video picks a file (mp4, mov, webm, mkv) and lays it on the timeline as a layer; drag its bar or its ends to move or trim it, Split at the playhead cuts it (clip panel or right-click), Ripple delete takes a clip out and closes the gap. Ask can do the same in plain words: "cut this clip at 4 seconds, drop the middle part and close the gap, play the end at half speed, keep the title on the second clip". From the phone, + Video clip in a space sends a video from it.
+- 3D: 3D solid, 3D file (.glb .gltf .obj .stl) and Light add real 3D; tick In 3D space on any layer to turn it and push it back for real. The camera can orbit, and the 3D room (reflections, shadows, a floor) is in the video panel.
+- App windows: App window adds a Mac, Windows, Linux, browser or phone window laid out as a dashboard, chat, web page, settings, code editor or checkout. Every part is a layer you edit; Cursor adds a pointing hand that clicks and types. Words only, never a real app.
+- Export gives a Video item as mp4 or webm, every frame exact whatever the speed of your computer, or a png of one frame. Nothing to install. Its music and sound hits are mixed in. Ask makes or changes one too: "Make a 10 second intro with our logo sliding in."
+- Sound: music, sound hits, your own sound files and each clip's own sound are mixed into one track — the same in the editor's preview and in the file. Every video comes out at one loudness (what video sites play at) and never clips; the music comes down by itself under a voice or a clip's sound. A clip's sound follows its speed, and can start a little before its picture or ring on after it (a J or L cut). Narration: ask "narrate 'Meet Ada' in the Narrator voice at 2 seconds" — Pinchy or a krill speaks it in one of the built-in voices (Settings → Voice & writing), puts it on the timeline and the music ducks under it. The preview plays a clip's sound for files up to 150 MB; the export has it up to 400 MB.
 - A picture has crop, turn, flip, light, contrast, colour, black and white and a width to resize to. Saving makes a new version and keeps the first.
 - Ask, beside an item, starts a krill on that item. It changes the blocks it needs. If you are typing in a block, its change waits there as a suggestion you accept or dismiss, so it never writes over you.
 - Versions, beside an item, lists every version and who made it. Bring one back and it becomes a new version, so nothing is lost going back.

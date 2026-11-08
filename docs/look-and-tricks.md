@@ -18,6 +18,9 @@ How Pinchy looks and behaves on your desktop: the theme of every window, his tri
 
 ## How it works
 - Themes: 31 theme families, each in light and dark, with an accent colour and an icon style. A change shows at once in every window.
+- Styles (2.8): a style changes how the whole app is built, not only its colours: corners, fonts, depth, borders and effects. There are 22: Pinchy's own, Liquid Glass, Material, Anthropic, OpenAI, Fluent, Cupertino, Swiss, Compact, Editorial, Ink, Neo Brutal, Soft UI, Neon, Classic Desktop, Terminal, Aero, Pixel, Sketchbook, Clay, Bubbly and Blueprint. A style never changes your colours: it works with whatever colour theme you pick (Tokyo Night Moon with Liquid Glass, for example) and any icon style. Some styles have a colour theme made to go with them (Ivory for Anthropic, Phosphor for Terminal, …); their settings offer it, and you can ignore it. Material keeps your icons.
+- Liquid Glass is real glass: panels bend and magnify what is behind them, split light into a faint colour fringe at the edges and catch a rim of light. Refraction, magnification, colour fringe, frost, rim light, light angle, tint, what shows behind the glass and how many glass pieces a window may have are all in its settings.
+- You can also just ask: "switch to the terminal style" or "make the glass less wobbly". Type /style to switch from the chat.
 - More themes: an extension can add colour themes. They appear under "From your extensions" while that extension is switched on; switch it off and you are back on the theme you had before.
 - Tricks: he learns a new trick at every milestone. Chats, finished tasks, krill, agents and voice all count, and the last trick is a surprise. Extensions can add tricks too.
 - Notifications arrive as a small bubble next to him; important ones also go to the system notification tray. You can ask for a desktop notification explicitly.
@@ -27,13 +30,14 @@ How Pinchy looks and behaves on your desktop: the theme of every window, his tri
 - On battery power (a laptop, unplugged) he stops wandering and is drawn less often, so he costs almost nothing. Plugged in, he is himself again.
 
 ## Settings
-- Settings → Pinchy → Themes: light or dark, the colour theme, the accent colour, the icon style.
+- Settings → Pinchy → Themes: light or dark, the style and its settings, the colour theme, the accent colour, the icon style.
 - Settings → Pinchy → Look & behaviour: how he looks and behaves on your desktop, including where he walks, "Tuck in for fullscreen apps" and "Save battery when unplugged" (both on).
 - Settings → Pinchy → Tricks & milestones: the tricks he has, what unlocks the next one.
 - Settings → Pinchy → Notifications: where and how he tells you things.
 - Settings → Pinchy → Shortcuts: all keyboard shortcuts in one place, and the switch for all of them.
 
 ## Limits
+- Liquid Glass can only bend what is inside Pinchy's own windows. Chat bubbles floating over your desktop get a glass tint, not refraction, because a window can't see the desktop behind it.
 - If a shortcut does nothing, another program may already use those keys. Change it, or run Settings → Safety & data → Check everything.
 - Tricks are for fun and for pointing at things on screen. He keeps them short while you work.
 - Noticing fullscreen apps works on KDE and other X11 desktops. On Windows and macOS pick "Tuck in" in his menu yourself.

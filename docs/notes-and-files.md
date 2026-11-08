@@ -1,12 +1,12 @@
 ---
 title: "Notes and files"
-description: "Pinchy's chat bubble is small on purpose. Anything longer than a few sentences goes into a note on your desktop, anything visual or substantial becomes an item in a space (see the Spaces page), and any file — yours or one he made — shows as a card you can preview and download."
+description: "Pinchy's chat bubble is small on purpose. Anything longer than a few sentences goes into a note on your desktop, anything visual or substantial becomes an item in a space in the Reef (see the Reef page), and any file — yours or one he made — shows as a card you can preview and download."
 keywords: "note, notes, sticky, copy, select text, preview, show picture, image, attach, attachment, attachments, file, files, folder, zip, pdf, upload, send a file, download, save as, drag, drop, paste, screenshot, video, sound, audio, open file, show in folder, file size, too big, preview window"
 permalink: /notes-and-files/
 ---
 # Notes and files
 
-Pinchy's chat bubble is small on purpose. Anything longer than a few sentences goes into a note on your desktop, anything visual or substantial becomes an item in a space (see the Spaces page), and any file — yours or one he made — shows as a card you can preview and download.
+Pinchy's chat bubble is small on purpose. Anything longer than a few sentences goes into a note on your desktop, anything visual or substantial becomes an item in a space in the Reef (see the Reef page), and any file — yours or one he made — shows as a card you can preview and download.
 
 ## What to ask for
 - "Put my shopping list in a note." A note window appears on your desktop.
@@ -16,7 +16,7 @@ Pinchy's chat bubble is small on purpose. Anything longer than a few sentences g
 
 ## How it works
 - Notes: text in a note can be selected and copied like any text. A whole section or a single code block can be copied with one click. Dragging the note moves it; dragging over text selects it.
-- Attaching: every message box has one attach button. In the chat bubble it is Attach → Screenshot · Files… · A folder…; in Agents → Workspace the paperclip offers Files… and A folder…; in an agent's chat it is Attach plus a Folder button. You can also drop files or folders on the box, or paste a screenshot into it (the chat bubble takes any pasted file up to 50 MB).
+- Attaching: every message box has one attach button. In the chat bubble it is Attach → Screenshot · Files… · A folder…; in the Reef the paperclip offers Files… and A folder…; in an agent's chat it is Attach plus a Folder button. You can also drop files or folders on the box, or paste a screenshot into it (the chat bubble takes any pasted file up to 50 MB).
 - Any kind of file can be attached: documents, PDFs, pictures, sound, video, .zip files and whole folders. Each shows as a card with its name and size; a folder card says how many files it holds.
 - In the plain chat he works on the file or folder where it is, so "fix the bug in this folder" changes your folder. Krill and agents get their own copy to work in.
 - Pinchy keeps a copy of what you attached, so the conversation still shows exactly what was sent even if you later change or delete the original.
